@@ -1,0 +1,5 @@
+Fontconfig error: Cannot load default config file: No such file: (null)
+Found 49 violations
+Found 0 unconnected items
+Found 0 schematic parity issues
+Saved DRC Report to /Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/drc.json

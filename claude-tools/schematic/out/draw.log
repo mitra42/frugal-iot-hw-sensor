@@ -1,0 +1,26 @@
+  spec lint: 0 error(s), 1 warning(s), 4 note(s)
+    warning no-bulk-cap        rail +3V3_SW has only small capacitors (C7=1uF, C13=100nF); add >= 10 uF bulk near where it enters or is generated
+    info    decoupling-count   rail VBAT: 1 IC(s) (U2) but 0 capacitor(s) <= 1 uF -- one 100 nF per IC power pin is usual
+    info    decoupling-count   rail VBUS: 1 IC(s) (U1) but 0 capacitor(s) <= 1 uF -- one 100 nF per IC power pin is usual
+    info    decoupling-count   rail VSYS: 1 IC(s) (U3) but 0 capacitor(s) <= 1 uF -- one 100 nF per IC power pin is usual
+    info    dp-suffix          4 single-ended net(s) end like half a differential pair; KiCad's pair tools offer them, and they couple silently the day a net with the complement name appears: EN (-> EP), J3_P2 (-> J3_N2), J3_P3 (-> J3_N3), nRAIL_EN (-> nRAIL_EP)
+  frugal_iot_v02.kicad_sch: 2 wire crossing(s)
+  wrote frugal_iot_v02.kicad_sch         A2       fill  97% x  72%
+  native format: 1 sheet(s) differ from KiCad 10.0's own save:
+    frugal_iot_v02.kicad_sch: at kicad_sch/kicad_sch[7]/lib_symbols[21]/symbol[14]/symbol[2]/pin[1]: ours 'power_in', KiCad 'passive'
+  nets drawn: 37   expected: 37
+  renamed (same pins, different name -- usually fine; add a label to keep your name):
+    CHG_PROG -> drawn as Net-(U1-PROG)
+    CHG_PROG2 -> drawn as Net-(JP1-A)
+    LED_CHRG -> drawn as Net-(D1-A)
+    LED_STDBY -> drawn as Net-(D2-A)
+    LED_STAT -> drawn as Net-(D4-A)
+    RS485_TERM -> drawn as Net-(JP4-A)
+  netlist matches the specification exactly
+  ERC: 0 error(s), 0 warning(s)
+  text check: 0 collision(s), 3 pair(s) closer than 1.27 mm
+    frugal_iot_v02.kicad_sch: 'PROG: I = 1200 / R. 4.7k = 255 mA (default); bridge JP1 (2.35k) = 510 mA (D8).' is 0.41 mm from 'TEMP grounded: no cell thermistor. J4 (not fitted, JST-PH footprint): pin 1 = cell -,' at (162.56, 70.89) (stack, want 0.85)
+    frugal_iot_v02.kicad_sch: 'GPIO map (D3): USB 18/19, UART0 20/21 -> J3, I2C 6/7, sensors 0/1 (ADC), VBAT_SENSE 3,' is 0.41 mm from 'nRAIL_EN 5, LED 8, BOOT 9, spares 2/4 -> J3, 10 -> J5 (RS485 DE when fitted).' at (39.37, 293.14) (stack, want 0.85)
+    frugal_iot_v02.kicad_sch: 'J2 (main) and J3 share one layout, pins 1-10 (D4, D5); J2, J12, J3 and J13 all fitted:' is 0.41 mm from '1 GND  2 SDA/A  3 SCL/B  4 3V3_SW  5 GND  6 S1/GPIO2  7 3V3_SW  8 GND  9 S2/GPIO4  10 3V3_SW' at (229.87, 310.12) (stack, want 0.85)
+VERIFY OK
+exit 0

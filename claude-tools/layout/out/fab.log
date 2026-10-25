@@ -1,0 +1,113 @@
+Fontconfig error: Cannot load default config file: No such file: (null)
+Found 49 violations
+Found 0 unconnected items
+Found 0 schematic parity issues
+Saved DRC Report to /Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/drc.json
+Plotted to '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-F_Cu.gbr'.
+Plotted to '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-B_Cu.gbr'.
+Plotted to '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-F_Paste.gbr'.
+Plotted to '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-B_Paste.gbr'.
+Plotted to '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-F_Silkscreen.gbr'.
+Plotted to '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-B_Silkscreen.gbr'.
+Plotted to '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-F_Mask.gbr'.
+Plotted to '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-B_Mask.gbr'.
+Plotted to '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-Edge_Cuts.gbr'.
+Created file '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-PTH.drl'
+Created file '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-NPTH.drl'
+Created file '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-PTH-drl_map.gbr'.
+Created file '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-NPTH-drl_map.gbr'.
+Done.
+Wrote position data to '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/pos_kicad.csv'.
+Fontconfig error: Cannot load default config file: No such file: (null)
+Wrote bill of materials to '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/bom_kicad.csv'.
+Loading…
+Build board outline
+
+Create layers
+Create tracks and vias
+Create zones
+Build Tech layers
+Build Tech layer 11
+Build Tech layer 9
+Build Tech layer 15
+Build Tech layer 13
+Build Tech layer 7
+Build Tech layer 5
+Build Tech layer 3
+Build Tech layer 1
+Build Tech layer 17
+Build Tech layer 19
+Build Tech layer 21
+Build Tech layer 23
+Build Tech layer 39
+Build Tech layer 41
+Build Tech layer 43
+Build Tech layer 45
+Build Tech layer 47
+Build Tech layer 49
+Build Tech layer 51
+Build Tech layer 53
+Build Tech layer 55
+Build Tech layer 57
+Build Tech layer 59
+Build Tech layer 61
+Build Tech layer 63
+Build Tech layer 65
+Build Tech layer 67
+Build Tech layer 69
+Build Tech layer 71
+Build Tech layer 73
+Build Tech layer 75
+Build Tech layer 77
+Build Tech layer 79
+Build Tech layer 81
+Build Tech layer 83
+Build Tech layer 85
+Build Tech layer 87
+Build Tech layer 89
+Build Tech layer 91
+Build Tech layer 93
+Build Tech layer 95
+Build Tech layer 97
+Build Tech layer 99
+Build Tech layer 101
+Build Tech layer 103
+Build Tech layer 105
+Build Tech layer 107
+Build Tech layer 109
+Build Tech layer 111
+Build Tech layer 113
+Build Tech layer 115
+Build Tech layer 117
+Build Tech layer 119
+Build Tech layer 121
+Build Tech layer 123
+Build Tech layer 125
+Build Tech layer 127
+Simplifying copper layer polygons
+Calculating plated copper
+Simplify holes contours
+Build BVH for holes and vias
+Load Raytracing: board
+Load Raytracing: layers
+Loading 3D models...
+Reload time 0.086 s
+Rendering: 10 %
+Rendering: 14 %
+Rendering: 18 %
+Rendering: 25 %
+Rendering: 32 %
+Rendering: 40 %
+Rendering: 45 %
+Rendering: 53 %
+Rendering: 60 %
+Rendering: 64 %
+Rendering: 69 %
+Rendering: 73 %
+Rendering: 79 %
+Rendering: 88 %
+Rendering: 95 %
+Rendering: 100 %
+Rendering: Post processing shader
+Rendering time 12.255 s
+Successfully created 3D render image

@@ -1,0 +1,1157 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-23T00:12:30",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.4",
+    "schematic_parity": [],
+    "source": "frugal_iot_v02.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint J3",
+                    "pos": {
+                        "x": 110.05,
+                        "y": 79.93
+                    },
+                    "uuid": "59781010-eb98-40e1-8bfc-2d4eb1e6d6d9"
+                },
+                {
+                    "description": "Footprint J13",
+                    "pos": {
+                        "x": 110.05,
+                        "y": 67.23
+                    },
+                    "uuid": "bea76495-a723-4ad2-b481-44b9d9ecc38f"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/GPIO2] of J13",
+                    "pos": {
+                        "x": 110.05,
+                        "y": 67.23
+                    },
+                    "uuid": "71b14f13-bdac-4fd3-9bb1-7ef25ec06832"
+                },
+                {
+                    "description": "Footprint J3",
+                    "pos": {
+                        "x": 110.05,
+                        "y": 79.93
+                    },
+                    "uuid": "59781010-eb98-40e1-8bfc-2d4eb1e6d6d9"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 5 [GND] of J3",
+                    "pos": {
+                        "x": 110.05,
+                        "y": 69.77
+                    },
+                    "uuid": "382c2656-f3c5-4853-be84-a4e6dc9032d2"
+                },
+                {
+                    "description": "Footprint J13",
+                    "pos": {
+                        "x": 110.05,
+                        "y": 67.23
+                    },
+                    "uuid": "bea76495-a723-4ad2-b481-44b9d9ecc38f"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "Courtyards overlap",
+            "items": [
+                {
+                    "description": "Footprint J12",
+                    "pos": {
+                        "x": 53.95,
+                        "y": 69.77
+                    },
+                    "uuid": "d8984759-1212-413a-91f9-efe4ba3ea561"
+                },
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 53.95,
+                        "y": 57.07
+                    },
+                    "uuid": "f775429b-7c76-41e2-98ba-bed3da34486e"
+                }
+            ],
+            "severity": "error",
+            "type": "courtyards_overlap"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 5 [GND] of J2",
+                    "pos": {
+                        "x": 53.95,
+                        "y": 67.23
+                    },
+                    "uuid": "14d7ae77-b49d-4c9e-99c2-0b6b78ed59a5"
+                },
+                {
+                    "description": "Footprint J12",
+                    "pos": {
+                        "x": 53.95,
+                        "y": 69.77
+                    },
+                    "uuid": "d8984759-1212-413a-91f9-efe4ba3ea561"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "PTH inside courtyard",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/SENS1] of J12",
+                    "pos": {
+                        "x": 53.95,
+                        "y": 69.77
+                    },
+                    "uuid": "02e72db4-5748-4bc9-a8a7-b735e099c858"
+                },
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 53.95,
+                        "y": 57.07
+                    },
+                    "uuid": "f775429b-7c76-41e2-98ba-bed3da34486e"
+                }
+            ],
+            "severity": "error",
+            "type": "pth_inside_courtyard"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 50.0,
+                        "y": 50.0
+                    },
+                    "uuid": "8638098b-651b-458e-a24f-e31b3c4b0bac"
+                },
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 83.8,
+                        "y": 85.35
+                    },
+                    "uuid": "5f6f791b-60e3-41c8-99f0-87a5bcb5eddc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 50.0,
+                        "y": 50.0
+                    },
+                    "uuid": "8638098b-651b-458e-a24f-e31b3c4b0bac"
+                },
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 93.2,
+                        "y": 85.35
+                    },
+                    "uuid": "21ae5597-d1ba-4b08-a483-77018703d5e6"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 50.0,
+                        "y": 50.0
+                    },
+                    "uuid": "8638098b-651b-458e-a24f-e31b3c4b0bac"
+                },
+                {
+                    "description": "Polygon of J5 on F.Silkscreen",
+                    "pos": {
+                        "x": 103.4,
+                        "y": 50.43
+                    },
+                    "uuid": "7974fc77-5b10-4fee-b637-02769e06a85f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 50.0,
+                        "y": 50.0
+                    },
+                    "uuid": "8638098b-651b-458e-a24f-e31b3c4b0bac"
+                },
+                {
+                    "description": "Polygon of J3 on F.Silkscreen",
+                    "pos": {
+                        "x": 113.57,
+                        "y": 79.93
+                    },
+                    "uuid": "862dd8e9-dd68-49fb-b91e-73fbae8b8177"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 50.0,
+                        "y": 50.0
+                    },
+                    "uuid": "8638098b-651b-458e-a24f-e31b3c4b0bac"
+                },
+                {
+                    "description": "Polygon of J13 on F.Silkscreen",
+                    "pos": {
+                        "x": 113.57,
+                        "y": 67.23
+                    },
+                    "uuid": "8f60759c-337f-4593-bae2-973b0a92db76"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 50.0,
+                        "y": 50.0
+                    },
+                    "uuid": "8638098b-651b-458e-a24f-e31b3c4b0bac"
+                },
+                {
+                    "description": "Polygon of J12 on F.Silkscreen",
+                    "pos": {
+                        "x": 50.43,
+                        "y": 69.77
+                    },
+                    "uuid": "48670723-1901-4c91-b21c-64b2f2ffb7b7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 50.0,
+                        "y": 50.0
+                    },
+                    "uuid": "8638098b-651b-458e-a24f-e31b3c4b0bac"
+                },
+                {
+                    "description": "Polygon of J6 on F.Silkscreen",
+                    "pos": {
+                        "x": 96.7,
+                        "y": 86.57
+                    },
+                    "uuid": "8d22d3ac-6a04-46b8-afa3-b6fce735adeb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 50.0,
+                        "y": 50.0
+                    },
+                    "uuid": "8638098b-651b-458e-a24f-e31b3c4b0bac"
+                },
+                {
+                    "description": "Polygon of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 50.43,
+                        "y": 57.07
+                    },
+                    "uuid": "63f194bb-e663-44af-ae7f-3f6fc9e3c235"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Footprint 'ESP32-C3-WROOM-02U' does not match copy in library 'RF_Module'",
+            "items": [
+                {
+                    "description": "Footprint U4",
+                    "pos": {
+                        "x": 77.0,
+                        "y": 58.3
+                    },
+                    "uuid": "b638f507-cdad-46f9-9b3d-7e7fa0728921"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 51.35,
+                        "y": 55.43
+                    },
+                    "uuid": "96859e78-91b4-4c45-a98e-c87cad5067ae"
+                },
+                {
+                    "description": "Segment of J12 on F.Silkscreen",
+                    "pos": {
+                        "x": 50.43,
+                        "y": 68.13
+                    },
+                    "uuid": "b289fe2b-8fbd-41b6-b978-74195b24fc1f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 51.35,
+                        "y": 55.43
+                    },
+                    "uuid": "96859e78-91b4-4c45-a98e-c87cad5067ae"
+                },
+                {
+                    "description": "Segment of J12 on F.Silkscreen",
+                    "pos": {
+                        "x": 51.35,
+                        "y": 68.13
+                    },
+                    "uuid": "a7bbaa5f-c83d-4cc3-b870-24a1a670c5c2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J12 on F.Silkscreen",
+                    "pos": {
+                        "x": 50.43,
+                        "y": 68.13
+                    },
+                    "uuid": "b289fe2b-8fbd-41b6-b978-74195b24fc1f"
+                },
+                {
+                    "description": "Segment of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 52.35,
+                        "y": 55.43
+                    },
+                    "uuid": "f973ad3b-ff17-4dfc-b116-25ac60776cc4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J12 on F.Silkscreen",
+                    "pos": {
+                        "x": 52.35,
+                        "y": 68.13
+                    },
+                    "uuid": "12b66ca7-9d77-4f1f-affb-fe3f4c26e453"
+                },
+                {
+                    "description": "Segment of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 52.35,
+                        "y": 55.43
+                    },
+                    "uuid": "f973ad3b-ff17-4dfc-b116-25ac60776cc4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 55.45,
+                        "y": 55.43
+                    },
+                    "uuid": "9f619832-bef9-4f83-a2ad-b2d432abff75"
+                },
+                {
+                    "description": "Segment of J12 on F.Silkscreen",
+                    "pos": {
+                        "x": 50.43,
+                        "y": 68.13
+                    },
+                    "uuid": "b289fe2b-8fbd-41b6-b978-74195b24fc1f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 55.45,
+                        "y": 55.43
+                    },
+                    "uuid": "9f619832-bef9-4f83-a2ad-b2d432abff75"
+                },
+                {
+                    "description": "Segment of J12 on F.Silkscreen",
+                    "pos": {
+                        "x": 55.45,
+                        "y": 68.13
+                    },
+                    "uuid": "ded09137-5985-436a-a8f3-681d3f2201d7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J12 on F.Silkscreen",
+                    "pos": {
+                        "x": 50.43,
+                        "y": 68.13
+                    },
+                    "uuid": "b289fe2b-8fbd-41b6-b978-74195b24fc1f"
+                },
+                {
+                    "description": "Segment of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 57.17,
+                        "y": 55.43
+                    },
+                    "uuid": "e991c522-c7be-4940-9e32-7016746c3b28"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J12 on F.Silkscreen",
+                    "pos": {
+                        "x": 57.17,
+                        "y": 68.13
+                    },
+                    "uuid": "91042b4a-21d4-4151-9258-7171f7cc6393"
+                },
+                {
+                    "description": "Segment of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 57.17,
+                        "y": 55.43
+                    },
+                    "uuid": "e991c522-c7be-4940-9e32-7016746c3b28"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 57.17,
+                        "y": 68.87
+                    },
+                    "uuid": "ec5df27d-bfbd-4caf-af2e-0245fc3d3e0e"
+                },
+                {
+                    "description": "Segment of J12 on F.Silkscreen",
+                    "pos": {
+                        "x": 50.43,
+                        "y": 69.47
+                    },
+                    "uuid": "fea91af3-7499-41df-a721-7790b02f9c78"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J12 on F.Silkscreen",
+                    "pos": {
+                        "x": 51.35,
+                        "y": 68.13
+                    },
+                    "uuid": "a7bbaa5f-c83d-4cc3-b870-24a1a670c5c2"
+                },
+                {
+                    "description": "Segment of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 57.17,
+                        "y": 68.87
+                    },
+                    "uuid": "ec5df27d-bfbd-4caf-af2e-0245fc3d3e0e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J12 on F.Silkscreen",
+                    "pos": {
+                        "x": 52.35,
+                        "y": 68.13
+                    },
+                    "uuid": "12b66ca7-9d77-4f1f-affb-fe3f4c26e453"
+                },
+                {
+                    "description": "Segment of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 57.17,
+                        "y": 68.87
+                    },
+                    "uuid": "ec5df27d-bfbd-4caf-af2e-0245fc3d3e0e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J12 on F.Silkscreen",
+                    "pos": {
+                        "x": 55.45,
+                        "y": 68.13
+                    },
+                    "uuid": "ded09137-5985-436a-a8f3-681d3f2201d7"
+                },
+                {
+                    "description": "Segment of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 57.17,
+                        "y": 68.87
+                    },
+                    "uuid": "ec5df27d-bfbd-4caf-af2e-0245fc3d3e0e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J12 on F.Silkscreen",
+                    "pos": {
+                        "x": 57.17,
+                        "y": 68.13
+                    },
+                    "uuid": "91042b4a-21d4-4151-9258-7171f7cc6393"
+                },
+                {
+                    "description": "Segment of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 57.17,
+                        "y": 68.87
+                    },
+                    "uuid": "ec5df27d-bfbd-4caf-af2e-0245fc3d3e0e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 50.43,
+                        "y": 68.87
+                    },
+                    "uuid": "063e4f81-43b3-4673-83a0-a5c7c39afb91"
+                },
+                {
+                    "description": "Segment of J12 on F.Silkscreen",
+                    "pos": {
+                        "x": 50.43,
+                        "y": 68.13
+                    },
+                    "uuid": "b289fe2b-8fbd-41b6-b978-74195b24fc1f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 50.43,
+                        "y": 68.87
+                    },
+                    "uuid": "063e4f81-43b3-4673-83a0-a5c7c39afb91"
+                },
+                {
+                    "description": "Segment of J12 on F.Silkscreen",
+                    "pos": {
+                        "x": 50.43,
+                        "y": 69.47
+                    },
+                    "uuid": "fea91af3-7499-41df-a721-7790b02f9c78"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J3 on F.Silkscreen",
+                    "pos": {
+                        "x": 106.83,
+                        "y": 68.13
+                    },
+                    "uuid": "51570684-53ed-4fd2-aabe-e040f0e6a362"
+                },
+                {
+                    "description": "Segment of J13 on F.Silkscreen",
+                    "pos": {
+                        "x": 106.83,
+                        "y": 68.87
+                    },
+                    "uuid": "c28baaea-ba61-4b59-87fb-5cb69f3a3c71"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J13 on F.Silkscreen",
+                    "pos": {
+                        "x": 106.83,
+                        "y": 68.87
+                    },
+                    "uuid": "c28baaea-ba61-4b59-87fb-5cb69f3a3c71"
+                },
+                {
+                    "description": "Segment of J3 on F.Silkscreen",
+                    "pos": {
+                        "x": 106.83,
+                        "y": 81.57
+                    },
+                    "uuid": "ee4822a2-02a7-417b-a5aa-f537a0edd32a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J3 on F.Silkscreen",
+                    "pos": {
+                        "x": 106.83,
+                        "y": 68.13
+                    },
+                    "uuid": "51570684-53ed-4fd2-aabe-e040f0e6a362"
+                },
+                {
+                    "description": "Segment of J13 on F.Silkscreen",
+                    "pos": {
+                        "x": 108.55,
+                        "y": 68.87
+                    },
+                    "uuid": "89a77462-e41e-4308-8437-86db1f65ba3c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J3 on F.Silkscreen",
+                    "pos": {
+                        "x": 108.55,
+                        "y": 81.57
+                    },
+                    "uuid": "011d883d-d2ad-45cb-ba05-acc4fedb32ca"
+                },
+                {
+                    "description": "Segment of J13 on F.Silkscreen",
+                    "pos": {
+                        "x": 108.55,
+                        "y": 68.87
+                    },
+                    "uuid": "89a77462-e41e-4308-8437-86db1f65ba3c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J13 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.65,
+                        "y": 68.87
+                    },
+                    "uuid": "48439389-c925-424b-8a51-0e87ee79f935"
+                },
+                {
+                    "description": "Segment of J3 on F.Silkscreen",
+                    "pos": {
+                        "x": 106.83,
+                        "y": 68.13
+                    },
+                    "uuid": "51570684-53ed-4fd2-aabe-e040f0e6a362"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J13 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.65,
+                        "y": 68.87
+                    },
+                    "uuid": "48439389-c925-424b-8a51-0e87ee79f935"
+                },
+                {
+                    "description": "Segment of J3 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.65,
+                        "y": 81.57
+                    },
+                    "uuid": "6a962343-4764-42ea-9be1-c7bf4c35ca03"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J3 on F.Silkscreen",
+                    "pos": {
+                        "x": 106.83,
+                        "y": 68.13
+                    },
+                    "uuid": "51570684-53ed-4fd2-aabe-e040f0e6a362"
+                },
+                {
+                    "description": "Segment of J13 on F.Silkscreen",
+                    "pos": {
+                        "x": 112.65,
+                        "y": 68.87
+                    },
+                    "uuid": "b76bfbcf-1cd3-4354-92e1-b162749b0438"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J3 on F.Silkscreen",
+                    "pos": {
+                        "x": 112.65,
+                        "y": 81.57
+                    },
+                    "uuid": "af8460f7-4783-4c5c-84d6-bd11a2cd2dd2"
+                },
+                {
+                    "description": "Segment of J13 on F.Silkscreen",
+                    "pos": {
+                        "x": 112.65,
+                        "y": 68.87
+                    },
+                    "uuid": "b76bfbcf-1cd3-4354-92e1-b162749b0438"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J13 on F.Silkscreen",
+                    "pos": {
+                        "x": 113.57,
+                        "y": 67.53
+                    },
+                    "uuid": "1142ad72-b73a-43aa-9b20-9517268c3f8b"
+                },
+                {
+                    "description": "Segment of J3 on F.Silkscreen",
+                    "pos": {
+                        "x": 106.83,
+                        "y": 68.13
+                    },
+                    "uuid": "51570684-53ed-4fd2-aabe-e040f0e6a362"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J13 on F.Silkscreen",
+                    "pos": {
+                        "x": 113.57,
+                        "y": 67.53
+                    },
+                    "uuid": "1142ad72-b73a-43aa-9b20-9517268c3f8b"
+                },
+                {
+                    "description": "Segment of J3 on F.Silkscreen",
+                    "pos": {
+                        "x": 113.57,
+                        "y": 68.13
+                    },
+                    "uuid": "c61004a4-af05-45b0-9a5a-3f0f3d1411b3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J3 on F.Silkscreen",
+                    "pos": {
+                        "x": 108.55,
+                        "y": 81.57
+                    },
+                    "uuid": "011d883d-d2ad-45cb-ba05-acc4fedb32ca"
+                },
+                {
+                    "description": "Segment of J13 on F.Silkscreen",
+                    "pos": {
+                        "x": 113.57,
+                        "y": 68.87
+                    },
+                    "uuid": "4ce609a0-ed2a-41ac-896e-5d32e080a559"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J13 on F.Silkscreen",
+                    "pos": {
+                        "x": 113.57,
+                        "y": 68.87
+                    },
+                    "uuid": "4ce609a0-ed2a-41ac-896e-5d32e080a559"
+                },
+                {
+                    "description": "Segment of J3 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.65,
+                        "y": 81.57
+                    },
+                    "uuid": "6a962343-4764-42ea-9be1-c7bf4c35ca03"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J13 on F.Silkscreen",
+                    "pos": {
+                        "x": 113.57,
+                        "y": 68.87
+                    },
+                    "uuid": "4ce609a0-ed2a-41ac-896e-5d32e080a559"
+                },
+                {
+                    "description": "Segment of J3 on F.Silkscreen",
+                    "pos": {
+                        "x": 112.65,
+                        "y": 81.57
+                    },
+                    "uuid": "af8460f7-4783-4c5c-84d6-bd11a2cd2dd2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J13 on F.Silkscreen",
+                    "pos": {
+                        "x": 113.57,
+                        "y": 68.87
+                    },
+                    "uuid": "4ce609a0-ed2a-41ac-896e-5d32e080a559"
+                },
+                {
+                    "description": "Segment of J3 on F.Silkscreen",
+                    "pos": {
+                        "x": 113.57,
+                        "y": 68.13
+                    },
+                    "uuid": "c61004a4-af05-45b0-9a5a-3f0f3d1411b3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J13 on F.Silkscreen",
+                    "pos": {
+                        "x": 113.57,
+                        "y": 68.87
+                    },
+                    "uuid": "4ce609a0-ed2a-41ac-896e-5d32e080a559"
+                },
+                {
+                    "description": "Segment of J3 on F.Silkscreen",
+                    "pos": {
+                        "x": 106.83,
+                        "y": 81.57
+                    },
+                    "uuid": "ee4822a2-02a7-417b-a5aa-f537a0edd32a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J2 on F.Silkscreen",
+                    "pos": {
+                        "x": 57.17,
+                        "y": 68.87
+                    },
+                    "uuid": "ec5df27d-bfbd-4caf-af2e-0245fc3d3e0e"
+                },
+                {
+                    "description": "PTH pad 1 [/SENS1] of J12",
+                    "pos": {
+                        "x": 53.95,
+                        "y": 69.77
+                    },
+                    "uuid": "02e72db4-5748-4bc9-a8a7-b735e099c858"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J12 on F.Silkscreen",
+                    "pos": {
+                        "x": 50.43,
+                        "y": 68.13
+                    },
+                    "uuid": "b289fe2b-8fbd-41b6-b978-74195b24fc1f"
+                },
+                {
+                    "description": "PTH pad 5 [GND] of J2",
+                    "pos": {
+                        "x": 53.95,
+                        "y": 67.23
+                    },
+                    "uuid": "14d7ae77-b49d-4c9e-99c2-0b6b78ed59a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J13 on F.Silkscreen",
+                    "pos": {
+                        "x": 113.57,
+                        "y": 68.87
+                    },
+                    "uuid": "4ce609a0-ed2a-41ac-896e-5d32e080a559"
+                },
+                {
+                    "description": "PTH pad 5 [GND] of J3",
+                    "pos": {
+                        "x": 110.05,
+                        "y": 69.77
+                    },
+                    "uuid": "382c2656-f3c5-4853-be84-a4e6dc9032d2"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Segment of J3 on F.Silkscreen",
+                    "pos": {
+                        "x": 106.83,
+                        "y": 68.13
+                    },
+                    "uuid": "51570684-53ed-4fd2-aabe-e040f0e6a362"
+                },
+                {
+                    "description": "PTH pad 1 [/GPIO2] of J13",
+                    "pos": {
+                        "x": 110.05,
+                        "y": 67.23
+                    },
+                    "uuid": "71b14f13-bdac-4fd3-9bb1-7ef25ec06832"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{'import_ok': True}
+poured and filled
+{'dangling_removed': 0, 'stitch_vias': 29, 'island_vias': 9}
+no via spot for island on F bbox mm 31.7 16.2 3.5 1.9
+{'tracks_removed': 57, 'island_vias': 4}
+{'dangling_removed': 0, 'killed': [], 'rescues': ['t', 'v'], 'pads': [('J1', 'B12'), ('J1', 'SH')]}
+DETACHED F.Cu 31.73 16.16 3.5 x 1.89
+groups 2 islands 20
+join vias []
+placed 36 moved to F.Fab ['R16', 'R21', 'R22', 'C10', 'C8', 'R10', 'C1', 'R18', 'R12', 'R13', 'C5', 'R1', 'R20', 'C9', 'D2', 'JP1', 'Q1', 'D5', 'Q2', 'J7', 'D3', 'U5', 'SW2', 'SW1', 'J13', 'J2', 'U4']
+violations 49 {'silk_overlap': 30, 'silk_edge_clearance': 8, 'pth_inside_courtyard': 4, 'silk_over_copper': 4, 'courtyards_overlap': 2, 'lib_footprint_mismatch': 1}
+unconnected_items 1 {'unconnected_items': 1}
+schematic_parity 0 {}
+   courtyards_overlap Courtyards overlap ['Footprint J3', 'Footprint J13']
+   pth_inside_courtyard PTH inside courtyard ['PTH pad 1 [/GPIO2] of J13', 'Footprint J3']
+   pth_inside_courtyard PTH inside courtyard ['PTH pad 5 [GND] of J3', 'Footprint J13']
+   courtyards_overlap Courtyards overlap ['Footprint J12', 'Footprint J2']
+   pth_inside_courtyard PTH inside courtyard ['PTH pad 5 [GND] of J2', 'Footprint J12']
+   pth_inside_courtyard PTH inside courtyard ['PTH pad 1 [/SENS1] of J12', 'Footprint J2']
+   lib_footprint_mismatch Footprint 'ESP32-C3-WROOM-02U' does not match copy in library 'RF_Modu ['Footprint U4']
