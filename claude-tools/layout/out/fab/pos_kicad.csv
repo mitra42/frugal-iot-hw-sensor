@@ -19,6 +19,8 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "J1","USB-C","USB_C_Receptacle_HRO_TYPE-C-31-M-12",88.500000,-83.350000,0.000000,top
 "J2","J2 SENSORS 1-5","TerminalBlock_Xinya_XY308-2.54-5P_1x05_P2.54mm_Horizontal",53.950000,-57.070000,-90.000000,top
 "J3","J3 RS485 1-5","TerminalBlock_Xinya_XY308-2.54-5P_1x05_P2.54mm_Horizontal",110.050000,-79.930000,90.000000,top
+"J4","CELL","JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal",63.500000,-80.500000,0.000000,top
+"J6","5V IN (aux)","TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal",96.700000,-83.050000,0.000000,top
 "J12","J2 SENSORS 6-10","TerminalBlock_Xinya_XY308-2.54-5P_1x05_P2.54mm_Horizontal",53.950000,-69.770000,-90.000000,top
 "J13","J3 SPARE 6-10","TerminalBlock_Xinya_XY308-2.54-5P_1x05_P2.54mm_Horizontal",110.050000,-67.230000,90.000000,top
 "Q1","AO3401A","SOT-23",82.750000,-70.750000,180.000000,top

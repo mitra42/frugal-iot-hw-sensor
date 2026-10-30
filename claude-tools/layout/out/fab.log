@@ -2,24 +2,24 @@ Fontconfig error: Cannot load default config file: No such file: (null)
 Found 49 violations
 Found 0 unconnected items
 Found 0 schematic parity issues
-Saved DRC Report to /Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/drc.json
-Plotted to '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-F_Cu.gbr'.
-Plotted to '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-B_Cu.gbr'.
-Plotted to '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-F_Paste.gbr'.
-Plotted to '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-B_Paste.gbr'.
-Plotted to '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-F_Silkscreen.gbr'.
-Plotted to '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-B_Silkscreen.gbr'.
-Plotted to '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-F_Mask.gbr'.
-Plotted to '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-B_Mask.gbr'.
-Plotted to '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-Edge_Cuts.gbr'.
-Created file '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-PTH.drl'
-Created file '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-NPTH.drl'
-Created file '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-PTH-drl_map.gbr'.
-Created file '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-NPTH-drl_map.gbr'.
+Saved DRC Report to /Users/mitra/git/github_mitra42/frugal-iot-hw-sensor/frugal_iot_v02/../claude-tools/layout/out/drc.json
+Plotted to '/Users/mitra/git/github_mitra42/frugal-iot-hw-sensor/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-F_Cu.gbr'.
+Plotted to '/Users/mitra/git/github_mitra42/frugal-iot-hw-sensor/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-B_Cu.gbr'.
+Plotted to '/Users/mitra/git/github_mitra42/frugal-iot-hw-sensor/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-F_Paste.gbr'.
+Plotted to '/Users/mitra/git/github_mitra42/frugal-iot-hw-sensor/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-B_Paste.gbr'.
+Plotted to '/Users/mitra/git/github_mitra42/frugal-iot-hw-sensor/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-F_Silkscreen.gbr'.
+Plotted to '/Users/mitra/git/github_mitra42/frugal-iot-hw-sensor/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-B_Silkscreen.gbr'.
+Plotted to '/Users/mitra/git/github_mitra42/frugal-iot-hw-sensor/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-F_Mask.gbr'.
+Plotted to '/Users/mitra/git/github_mitra42/frugal-iot-hw-sensor/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-B_Mask.gbr'.
+Plotted to '/Users/mitra/git/github_mitra42/frugal-iot-hw-sensor/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-Edge_Cuts.gbr'.
+Created file '/Users/mitra/git/github_mitra42/frugal-iot-hw-sensor/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-PTH.drl'
+Created file '/Users/mitra/git/github_mitra42/frugal-iot-hw-sensor/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-NPTH.drl'
+Created file '/Users/mitra/git/github_mitra42/frugal-iot-hw-sensor/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-PTH-drl_map.gbr'.
+Created file '/Users/mitra/git/github_mitra42/frugal-iot-hw-sensor/frugal_iot_v02/../claude-tools/layout/out/fab/gerbers/frugal_iot_v02-NPTH-drl_map.gbr'.
 Done.
-Wrote position data to '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/pos_kicad.csv'.
+Wrote position data to '/Users/mitra/git/github_mitra42/frugal-iot-hw-sensor/frugal_iot_v02/../claude-tools/layout/out/fab/pos_kicad.csv'.
 Fontconfig error: Cannot load default config file: No such file: (null)
-Wrote bill of materials to '/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02/../claude-tools/layout/out/fab/bom_kicad.csv'.
+Wrote bill of materials to '/Users/mitra/git/github_mitra42/frugal-iot-hw-sensor/frugal_iot_v02/../claude-tools/layout/out/fab/bom_kicad.csv'.
 Loading…
 Build board outline
 
@@ -91,23 +91,21 @@ Build BVH for holes and vias
 Load Raytracing: board
 Load Raytracing: layers
 Loading 3D models...
-Reload time 0.086 s
-Rendering: 10 %
-Rendering: 14 %
-Rendering: 18 %
-Rendering: 25 %
-Rendering: 32 %
-Rendering: 40 %
+Reload time 0.072 s
+Rendering: 11 %
+Rendering: 16 %
+Rendering: 22 %
+Rendering: 26 %
+Rendering: 39 %
 Rendering: 45 %
-Rendering: 53 %
-Rendering: 60 %
-Rendering: 64 %
-Rendering: 69 %
-Rendering: 73 %
-Rendering: 79 %
-Rendering: 88 %
-Rendering: 95 %
+Rendering: 54 %
+Rendering: 61 %
+Rendering: 65 %
+Rendering: 70 %
+Rendering: 74 %
+Rendering: 84 %
+Rendering: 94 %
 Rendering: 100 %
 Rendering: Post processing shader
-Rendering time 12.255 s
+Rendering time 10.759 s
 Successfully created 3D render image

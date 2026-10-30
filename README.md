@@ -2,7 +2,7 @@
 
 A simple, un-opinionated, multi-purpose sensor board, that can be wired to sensors using most common interfaces (I2C, ModBus, OneWire, Analog) with onboard charging and external antenna.
 
-**Status:** schematic and layout for review (22 Oct 2026, revision 3): 64 × 37 mm, 2 layers, routed, DRC clean; JLCPCB files ready but not ordered.
+**Status:** revision 4 (28 Oct 2026): 64 × 37 mm, 2 layers, routed, DRC clean; J4 (cell) and J6 (5 V in) now fitted (D34); JLCPCB files ready for the first order.
 
 ## Hardware Features
 

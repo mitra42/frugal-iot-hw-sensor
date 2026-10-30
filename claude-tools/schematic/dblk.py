@@ -49,13 +49,13 @@ def usb(x, y):
             S.wire(top, at(top, 0, -2.54)); S.label(net, top[0], top[1] - 2.54, angle=90)
             hang(ref, top, 'GND')
             cx += 10.16
-        # J6: unfitted 2-way holes beside the USB-C for external 5 V wiring (D10)
+        # J6: 2-way terminal beside the USB-C for external 5 V wiring (D10)
         put('J6', cx + 10.16, vb[1] + 20.32)
         term('J6', '1', 'VBUS', 15.24)
         term('J6', '2', 'GND', 5.08)
         S.note("USB-C sink, 5 V only: CC1/CC2 5.1k to GND. D+/D- go straight to the C3's native USB\n"
                "(GPIO19/GPIO18): no USB-UART chip and no ESD chip (D9).\n"
-               "J6 (not fitted): 2.54 mm holes for external 5 V or a hand-soldered XY308-2P (D10).",
+               "J6: XY308-2P screw terminal for external 5 V, e.g. a solar panel (D10; fitted from D34).",
                x - 5.08, y + 33.02, 1.0)
 
 
@@ -82,7 +82,7 @@ def charger(x, y):
         S.wire((b1[0], ry), *[(xx, ry) for xx in r])
         hang('C2', (r[0], ry), 'GND')
         drop('VBAT', (r[1], ry), 2.54)
-        # J4 cell connector (not fitted): pin 1 = cell -, pin 2 = cell +
+        # J4 cell connector (fitted from D34): pin 1 = cell -, pin 2 = cell +
         put_pin('J4', '2', (r[2] + 5.08, ry), mirror='y')
         S.wire((r[2], ry), pin('J4', '2'))
         term('J4', '1', 'CELL_NEG', 2.54)
@@ -125,8 +125,8 @@ def charger(x, y):
         S.wire(e5, at(e5, 0, 2.54)); port('GND', *at(e5, 0, 2.54))
         S.nc('U2', '1')
         S.note("PROG: I = 1200 / R. 4.7k = 255 mA (default); bridge JP1 (2.35k) = 510 mA (D8).\n"
-               "TEMP grounded: no cell thermistor. J4 (not fitted, JST-PH footprint): pin 1 = cell -,\n"
-               "pin 2 = cell +; solder leads or fit a connector by hand (D11). Check cell polarity.\n"
+               "TEMP grounded: no cell thermistor. J4 (JST-PH, fitted from D34): pin 1 = cell -,\n"
+               "pin 2 = cell +. Not all JST-PH cells are wired the same way: check polarity (D11).\n"
                "XB5353A (D12) sits in the cell's negative lead: board GND is the pack's P-.\n"
                "Trips at 4.30 V / 2.4 V, 3 A discharge; C3 at its VDD pin.",
                x - 45.72, y - 27.94, 1.0)

@@ -44,7 +44,7 @@ part('J', 'Connector:USB_C_Receptacle_USB2.0_16P', 'USB-C', 'Connector_USB:USB_C
       'A5': 'CC1', 'B5': 'CC2', 'A6': 'USB_D_P', 'B6': 'USB_D_P', 'A7': 'USB_D_N', 'B7': 'USB_D_N',
       'A8': 'NC', 'B8': 'NC', 'SH': 'GND'}, B, lcsc='C165948', mpn='TYPE-C-31-M-12', ref='J1')
 R('5.1k', 'CC1', 'GND', B); R('5.1k', 'CC2', 'GND', B)
-TERM('J6', 2, ['VBUS', 'GND'], B, '5V IN (aux)', dnp=True)   # D10: holes beside USB for external 5 V
+TERM('J6', 2, ['VBUS', 'GND'], B, '5V IN (aux)')   # D10: external 5 V beside USB; fitted from D34
 
 # ---------------- Charger + cell protection ----------------
 B = 'chg'
@@ -58,7 +58,7 @@ part('JP', 'Jumper:SolderJumper_2_Open', '500mA', SJ, {'1': 'CHG_PROG2', '2': 'G
 R('1k', 'VBUS', 'LED_CHRG', B); LED('RED', 'LED_CHRG', 'nCHRG', B)
 R('1k', 'VBUS', 'LED_STDBY', B); LED('GREEN', 'LED_STDBY', 'nSTDBY', B)
 part('J', 'Connector:Conn_01x02_Pin', 'CELL', 'Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal',
-     {'1': 'CELL_NEG', '2': 'VBAT'}, B, dnp=True, lcsc='C173752', mpn='S2B-PH-K-S', ref='J4')
+     {'1': 'CELL_NEG', '2': 'VBAT'}, B, lcsc='C173752', mpn='S2B-PH-K-S', ref='J4')
 part('U', 'frugal:XB5353A', 'XB5353A', 'Package_TO_SOT_SMD:SOT-23-5',
      {'1': 'NC', '2': 'CELL_NEG', '3': 'VBAT', '4': 'GND', '5': 'GND'}, B, lcsc='C80628', mpn='XB5353A')
 C('100nF', 'VBAT', 'CELL_NEG', B)

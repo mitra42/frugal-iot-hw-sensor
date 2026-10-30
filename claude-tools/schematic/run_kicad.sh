@@ -1,7 +1,7 @@
 #!/bin/bash
 # Run on the Mac. ERC + netlist + PDF + SVG for the schematic.
 CLI=/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli
-D=/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02
+D=$(cd "$(dirname "$0")/../.." && pwd)/frugal_iot_v02
 O=$D/../claude-tools/schematic/out
 mkdir -p $O
 cd $D

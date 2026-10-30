@@ -1,7 +1,7 @@
 #!/bin/bash
 # Mac: DRC + raw fabrication outputs into out/fab/ (then jlc_files.py packs them into ../../fabrication/). Sentinel out/fab.done
 CLI=/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli
-D=/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02
+D=$(cd "$(dirname "$0")/../.." && pwd)/frugal_iot_v02
 F=$D/../claude-tools/layout/out/fab; O=$D/../claude-tools/layout/out
 mkdir -p $O; rm -f $O/fab.done; mkdir -p $F/gerbers
 cd $D

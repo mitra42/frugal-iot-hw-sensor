@@ -1,6 +1,6 @@
 """JLCPCB PCBA cost estimate at several quantities.
 Inputs: out/bom.csv (run_kicad.sh), out/jlc_prices.json (jlc_dump.sh), out/netlist.xml.
-Fees from jlcpcb.com/help/article/pcb-assembly-price (page updated 9 Sep 2026, read 14 Oct 2026).
+Fees from jlcpcb.com/help/article/pcb-assembly-price (page updated 22 Oct 2026, read 28 Oct 2026).
 Usage: python3 cost_estimate.py > ../../COST-ESTIMATE.txt   -> 10 (Economic), 100 (Economic, panelised)
 Bare PCB is NOT included (needs board size); add it from the JLCPCB quote once layout fixes the outline."""
 import csv, json, re, xml.etree.ElementTree as ET
@@ -92,7 +92,7 @@ NOTES = """Notes:
   * JLCPCB's FAQ says Economic PCBA above 30 pieces needs panelising; the panel fee ($8.21) is included
     in the 100-board column.
   * No X-ray: the ESP32-C3-WROOM-02U has castellated edge pads (X-ray applies to leadless/BGA parts).
-  * Not fitted (DNP) parts cost nothing: J4, J5, J6, J7 and the sensor options R19, C11.\n  * RS485 / Modbus is fitted; leaving it off saves the amount shown at the end (no feeder fees: all Basic\n    parts, and J3 is the same part number as J2/J12).
+  * Not fitted (DNP) parts cost nothing: J5, J7 and the sensor options R19, C11.\n  * J4 (cell JST-PH) and J6 (5 V terminal) are fitted (D34): both Extended, hand-soldered. Together they add\n    about $0.97 per board at 10 (mostly two $3.07 feeder fees) and $0.36 at 100.\n  * JLCPCB's price page (22 Oct 2026) also lists 'pre-reflow soldering' at $0.016 per joint with no\n    explanation; not included here. Check the quote for it.\n  * RS485 / Modbus is fitted; leaving it off saves the amount shown at the end (no feeder fees: all Basic\n    parts, and J3 is the same part number as J2/J12).
 """
 
 def modbus():

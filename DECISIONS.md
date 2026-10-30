@@ -152,3 +152,21 @@ J5: 10), "+" / "−" with SOLAR (J6) and CELL (J4), and a diode symbol (anode �
 read correctly with the board turned over. If JP2/JP3 are re-bridged for UART, J3 pins 2–3 become RX / TX.
 `claude-tools/layout/backlabels.py` (re-runnable). No new DRC notes.
 
+## Revision 4 (28 Oct 2026, before the first JLCPCB order)
+
+**D34 — J4 and J6 fitted for this run** (Mitra): J4 = JST-PH 2-way right-angle (S2B-PH-K-S, C173752) for the
+cell; J6 = XY308-2.54-2P screw terminal (C557685) for external 5 V, e.g. a solar panel. Both Extended and
+through-hole, so JLCPCB hand-solders them: about $0.97 per board at 10 (mostly two $3.07 feeder fees), $0.36
+at 100. Layout unchanged (footprints were already placed and marked with polarity, D32). 55 placed parts, 26
+part numbers; ≈ $11.51 per board for 10, ≈ $7.16 for 100 (prices re-read 28 Oct; bare PCB still a
+placeholder). Not all JST-PH cells are wired the same way: check the lead polarity against the "+" / "−" marks.
+J5, J7, R19 and C11 remain unfitted.
+
+**D35 — CPL corrected to match JLCPCB's part models** (Mitra's first pass through the assembly preview):
+JLCPCB's models are rotated differently from KiCad's footprints, so `jlc_files.py` now adds 180° to SOT-23
+(Q1, Q2, D5) and J4, −90° to SOT-23-5 U3 and SOIC-8 (U1, U5), and 180° to U2
+(JLCPCB's XB5353A model is drawn differently from its ME6211, though both are SOT-23-5). The THT connectors' KiCad origin is
+pin 1 but JLCPCB centres its model on the given point, which put J2/J12 two pins too high, J3/J13 two pins
+too low, J6 half a pin left and J4 1 mm left; the CPL now gives the centre of each pin row. Expected
+orientation (pin 1, or cathode): U1 bottom-right, U5 top-left, U2/U3 bottom-left, Q1 bottom-right, Q2/D5
+top-right, U4 top-left; D3 band at the top; LED cathodes: D1 right, D2 bottom, D4 right.

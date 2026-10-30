@@ -1,7 +1,7 @@
 #!/bin/bash
 # Mac: schematic -> netlist -> measure -> place -> build PCB -> netclasses -> DRC + renders. Sentinel out/pipeline.done
 PY=/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/Current/bin/python3
-L=/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/claude-tools/layout; T=$L/../schematic
+L=$(cd "$(dirname "$0")/../.." && pwd)/claude-tools/layout; T=$L/../schematic
 mkdir -p $L/out; rm -f $L/out/pipeline.done; LOG=$L/out/pipeline.log
 (
   set -x

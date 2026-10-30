@@ -6386,7 +6386,7 @@
 			)
 		)
 		(path "/c4f5dac8-396e-5633-b1fe-ffa73c26ee67")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.06 -1.46)
@@ -14437,7 +14437,7 @@
 			)
 		)
 		(path "/50356880-1e63-5561-9ed2-bd3323224a17")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.64 -3.22)
@@ -17390,7 +17390,7 @@
 	(gr_text "-"
 		(at 60.2 80.5 0)
 		(layer "F.SilkS")
-		(uuid "0b240612-3fba-4948-8b2d-19ab555aa6be")
+		(uuid "13a90a2f-f7b3-4dc4-842e-9b95d5a12a76")
 		(effects
 			(font
 				(size 1.4 1.4)
@@ -17401,7 +17401,7 @@
 	(gr_text "+"
 		(at 68.8 80.5 0)
 		(layer "F.SilkS")
-		(uuid "a5d3bbff-28bd-40ae-90a6-b0b76fc5db4c")
+		(uuid "1095eb3b-f1aa-4e34-82e3-19f6f292b603")
 		(effects
 			(font
 				(size 1.4 1.4)
@@ -17412,7 +17412,7 @@
 	(gr_text "+"
 		(at 96.7 78.505 0)
 		(layer "F.SilkS")
-		(uuid "0d79f9ba-ae1c-4250-ac53-34d4397d4ebf")
+		(uuid "37924b5e-b2bf-44fa-8abe-9ce8a72b4773")
 		(effects
 			(font
 				(size 1.4 1.4)
@@ -17423,7 +17423,7 @@
 	(gr_text "-"
 		(at 99.24 78.505 0)
 		(layer "F.SilkS")
-		(uuid "261d78d3-1863-45d1-a1dc-ff314911e07c")
+		(uuid "d15bf06d-4fb1-4ab9-bcc5-7e96787f5d85")
 		(effects
 			(font
 				(size 1.4 1.4)

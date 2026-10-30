@@ -2,7 +2,7 @@
  "C14663": {
   "componentId": 15331,
   "componentLibraryType": "base",
-  "stockCount": 50427674,
+  "stockCount": 41008852,
   "componentTypeEn": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
   "erpComponentName": "100nF \u00b110% 50V",
   "componentSource": "shop",
@@ -11,69 +11,69 @@
    {
     "startNumber": 1,
     "endNumber": 499,
-    "productPrice": 0.014
+    "productPrice": 0.0081
    },
    {
     "startNumber": 500,
     "endNumber": 1499,
-    "productPrice": 0.0106
+    "productPrice": 0.0063
    },
    {
     "startNumber": 1500,
     "endNumber": 3999,
-    "productPrice": 0.0091
+    "productPrice": 0.0053
    },
    {
     "startNumber": 4000,
     "endNumber": 23999,
-    "productPrice": 0.0076
+    "productPrice": 0.0047
    },
    {
     "startNumber": 24000,
     "endNumber": 47999,
-    "productPrice": 0.0071
+    "productPrice": 0.0042
    },
    {
     "startNumber": 48000,
     "endNumber": -1,
-    "productPrice": 0.0068
+    "productPrice": 0.0039
    }
   ],
   "buyComponentPrices": [
    {
     "startNumber": 4000,
     "endNumber": 23999,
-    "productPrice": 0.0073
+    "productPrice": 0.0045
    },
    {
     "startNumber": 1,
     "endNumber": 499,
-    "productPrice": 0.0135
+    "productPrice": 0.0078
    },
    {
     "startNumber": 24000,
     "endNumber": 47999,
-    "productPrice": 0.0069
+    "productPrice": 0.004
    },
    {
     "startNumber": 1500,
     "endNumber": 3999,
-    "productPrice": 0.0087
+    "productPrice": 0.0051
    },
    {
     "startNumber": 500,
     "endNumber": 1499,
-    "productPrice": 0.0102
+    "productPrice": 0.0061
    },
    {
     "startNumber": 48000,
     "endNumber": -1,
-    "productPrice": 0.0066
+    "productPrice": 0.0038
    }
   ],
   "firstSortAccessId": "1a513feddccb44f5bf49e1f5b9e5ffdb",
   "secondSortAccessId": "7e74f1d772c74e3d99bc4868d21962f2",
-  "canPresaleNumber": 33408215,
+  "canPresaleNumber": 29853600,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "YAGEO-CC0603KRX7R9BB104/C14663",
@@ -90,10 +90,10 @@
   "estimateDate": null,
   "fullReelPrice": null,
   "encapsulationNumber": 4000,
-  "shopCostPrice": 0.03446,
-  "preMinPurchaseNum": 852,
+  "shopCostPrice": 0.0207,
+  "preMinPurchaseNum": 1433,
   "minPurchaseNum": 1,
-  "initialPrice": 0.014,
+  "initialPrice": 0.0081,
   "componentCode": "C14663",
   "componentBrandEn": "YAGEO",
   "componentModelEn": "CC0603KRX7R9BB104",
@@ -179,7 +179,7 @@
  "C15127": {
   "componentId": 15801,
   "componentLibraryType": "base",
-  "stockCount": 585678,
+  "stockCount": 677386,
   "componentTypeEn": "MOSFETs",
   "erpComponentName": "AO3401A",
   "componentSource": "shop",
@@ -188,69 +188,69 @@
    {
     "startNumber": 1,
     "endNumber": 49,
-    "productPrice": 0.102
+    "productPrice": 0.096
    },
    {
     "startNumber": 50,
     "endNumber": 149,
-    "productPrice": 0.0824
+    "productPrice": 0.0783
    },
    {
     "startNumber": 150,
     "endNumber": 499,
-    "productPrice": 0.0723
+    "productPrice": 0.0692
    },
    {
     "startNumber": 500,
     "endNumber": 2999,
-    "productPrice": 0.064
+    "productPrice": 0.0618
    },
    {
     "startNumber": 3000,
     "endNumber": 5999,
-    "productPrice": 0.061
+    "productPrice": 0.0592
    },
    {
     "startNumber": 6000,
     "endNumber": -1,
-    "productPrice": 0.0591
+    "productPrice": 0.0574
    }
   ],
   "buyComponentPrices": [
    {
     "startNumber": 1,
     "endNumber": 49,
-    "productPrice": 0.0982
+    "productPrice": 0.0925
    },
    {
     "startNumber": 500,
     "endNumber": 2999,
-    "productPrice": 0.0616
+    "productPrice": 0.0595
    },
    {
     "startNumber": 50,
     "endNumber": 149,
-    "productPrice": 0.0794
+    "productPrice": 0.0755
    },
    {
     "startNumber": 3000,
     "endNumber": 5999,
-    "productPrice": 0.0588
+    "productPrice": 0.057
    },
    {
     "startNumber": 6000,
     "endNumber": -1,
-    "productPrice": 0.0569
+    "productPrice": 0.0553
    },
    {
     "startNumber": 150,
     "endNumber": 499,
-    "productPrice": 0.0696
+    "productPrice": 0.0666
    }
   ],
   "firstSortAccessId": "af6f8457ec9d400e9ccbfa9dd9889152",
   "secondSortAccessId": "c379c2fda52a490e92606b90e6c81760",
-  "canPresaleNumber": 455239,
+  "canPresaleNumber": 544098,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "Alpha_OmegaSemicon-AO3401A/C15127",
@@ -267,10 +267,10 @@
   "estimateDate": null,
   "fullReelPrice": null,
   "encapsulationNumber": 3000,
-  "shopCostPrice": 0.27573,
-  "preMinPurchaseNum": 110,
+  "shopCostPrice": 0.25402,
+  "preMinPurchaseNum": 116,
   "minPurchaseNum": 1,
-  "initialPrice": 0.102,
+  "initialPrice": 0.096,
   "componentCode": "C15127",
   "componentBrandEn": "Alpha & Omega Semicon",
   "componentModelEn": "AO3401A",
@@ -388,7 +388,7 @@
  "C15849": {
   "componentId": 16531,
   "componentLibraryType": "base",
-  "stockCount": 9816951,
+  "stockCount": 12998400,
   "componentTypeEn": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
   "erpComponentName": "1uF \u00b110% 50V",
   "componentSource": "shop",
@@ -397,69 +397,69 @@
    {
     "startNumber": 1,
     "endNumber": 499,
-    "productPrice": 0.0151
+    "productPrice": 0.0146
    },
    {
     "startNumber": 500,
     "endNumber": 1499,
-    "productPrice": 0.0118
+    "productPrice": 0.0113
    },
    {
     "startNumber": 1500,
     "endNumber": 3999,
-    "productPrice": 0.0103
+    "productPrice": 0.0098
    },
    {
     "startNumber": 4000,
     "endNumber": 23999,
-    "productPrice": 0.0092
+    "productPrice": 0.0086
    },
    {
     "startNumber": 24000,
     "endNumber": 47999,
-    "productPrice": 0.0088
+    "productPrice": 0.0082
    },
    {
     "startNumber": 48000,
     "endNumber": -1,
-    "productPrice": 0.0085
+    "productPrice": 0.0079
    }
   ],
   "buyComponentPrices": [
    {
     "startNumber": 24000,
     "endNumber": 47999,
-    "productPrice": 0.0085
+    "productPrice": 0.0079
    },
    {
     "startNumber": 500,
     "endNumber": 1499,
-    "productPrice": 0.0114
+    "productPrice": 0.0108
    },
    {
     "startNumber": 48000,
     "endNumber": -1,
-    "productPrice": 0.0082
+    "productPrice": 0.0076
    },
    {
     "startNumber": 4000,
     "endNumber": 23999,
-    "productPrice": 0.0089
+    "productPrice": 0.0083
    },
    {
     "startNumber": 1500,
     "endNumber": 3999,
-    "productPrice": 0.0099
+    "productPrice": 0.0094
    },
    {
     "startNumber": 1,
     "endNumber": 499,
-    "productPrice": 0.0145
+    "productPrice": 0.0141
    }
   ],
   "firstSortAccessId": "1a513feddccb44f5bf49e1f5b9e5ffdb",
   "secondSortAccessId": "7e74f1d772c74e3d99bc4868d21962f2",
-  "canPresaleNumber": 7313802,
+  "canPresaleNumber": 9764923,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "16531-CL10A105KB8NNNC/C15849",
@@ -476,10 +476,10 @@
   "estimateDate": null,
   "fullReelPrice": null,
   "encapsulationNumber": 4000,
-  "shopCostPrice": 0.03835,
-  "preMinPurchaseNum": 765,
+  "shopCostPrice": 0.03792,
+  "preMinPurchaseNum": 799,
   "minPurchaseNum": 1,
-  "initialPrice": 0.0151,
+  "initialPrice": 0.0146,
   "componentCode": "C15849",
   "componentBrandEn": "Samsung Electro-Mechanics",
   "componentModelEn": "CL10A105KB8NNNC",
@@ -565,7 +565,7 @@
  "C16581": {
   "componentId": 17264,
   "componentLibraryType": "expand",
-  "stockCount": 63762,
+  "stockCount": 87433,
   "componentTypeEn": "Battery Management",
   "erpComponentName": "1A\u7ebf\u6027\u9502\u79bb\u5b50\u7535\u6c60\u5145\u7535\u5668",
   "componentSource": "shop",
@@ -574,69 +574,69 @@
    {
     "startNumber": 1,
     "endNumber": 49,
-    "productPrice": 0.1849
+    "productPrice": 0.1856
    },
    {
     "startNumber": 50,
     "endNumber": 149,
-    "productPrice": 0.1465
+    "productPrice": 0.1469
    },
    {
     "startNumber": 150,
     "endNumber": 499,
-    "productPrice": 0.1277
+    "productPrice": 0.1281
    },
    {
     "startNumber": 500,
     "endNumber": 2499,
-    "productPrice": 0.1109
+    "productPrice": 0.1112
    },
    {
     "startNumber": 2500,
     "endNumber": 3999,
-    "productPrice": 0.091
+    "productPrice": 0.0914
    },
    {
     "startNumber": 4000,
     "endNumber": -1,
-    "productPrice": 0.0883
+    "productPrice": 0.0886
    }
   ],
   "buyComponentPrices": [
    {
     "startNumber": 1,
     "endNumber": 49,
-    "productPrice": 0.1782
+    "productPrice": 0.1788
    },
    {
     "startNumber": 150,
     "endNumber": 499,
-    "productPrice": 0.123
+    "productPrice": 0.1234
    },
    {
     "startNumber": 500,
     "endNumber": 2499,
-    "productPrice": 0.1069
+    "productPrice": 0.1072
    },
    {
     "startNumber": 50,
     "endNumber": 149,
-    "productPrice": 0.1411
+    "productPrice": 0.1416
    },
    {
     "startNumber": 2500,
     "endNumber": 3999,
-    "productPrice": 0.0877
+    "productPrice": 0.0881
    },
    {
     "startNumber": 4000,
     "endNumber": -1,
-    "productPrice": 0.085
+    "productPrice": 0.0854
    }
   ],
   "firstSortAccessId": "a7ca7be1124b46818df6480f00698e25",
   "secondSortAccessId": "cca499faefe0487cab22251edb29c551",
-  "canPresaleNumber": 49988,
+  "canPresaleNumber": 74146,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "17264-TP4056_42ESOP8/C16581",
@@ -653,10 +653,10 @@
   "estimateDate": null,
   "fullReelPrice": null,
   "encapsulationNumber": 4000,
-  "shopCostPrice": 0.47092,
+  "shopCostPrice": 0.47031,
   "preMinPurchaseNum": 49,
   "minPurchaseNum": 1,
-  "initialPrice": 0.1849,
+  "initialPrice": 0.1856,
   "componentCode": "C16581",
   "componentBrandEn": "TOPPOWER(Nanjing Extension Microelectronics)",
   "componentModelEn": "TP4056-42-ESOP8",
@@ -782,7 +782,7 @@
  "C165948": {
   "componentId": 177331,
   "componentLibraryType": "expand",
-  "stockCount": 382026,
+  "stockCount": 301221,
   "componentTypeEn": "USB Connectors",
   "erpComponentName": "Type-C \u6bcd \u5367\u8d34",
   "componentSource": "shop",
@@ -791,69 +791,69 @@
    {
     "startNumber": 1,
     "endNumber": 49,
-    "productPrice": 0.1862
+    "productPrice": 0.1871
    },
    {
     "startNumber": 50,
     "endNumber": 149,
-    "productPrice": 0.1471
+    "productPrice": 0.1478
    },
    {
     "startNumber": 150,
     "endNumber": 999,
-    "productPrice": 0.1279
+    "productPrice": 0.1284
    },
    {
     "startNumber": 1000,
     "endNumber": 1999,
-    "productPrice": 0.1037
+    "productPrice": 0.1042
    },
    {
     "startNumber": 2000,
     "endNumber": 4999,
-    "productPrice": 0.099
+    "productPrice": 0.0995
    },
    {
     "startNumber": 5000,
     "endNumber": -1,
-    "productPrice": 0.0962
+    "productPrice": 0.0967
    }
   ],
   "buyComponentPrices": [
    {
     "startNumber": 150,
     "endNumber": 999,
-    "productPrice": 0.1232
+    "productPrice": 0.1237
    },
    {
     "startNumber": 50,
     "endNumber": 149,
-    "productPrice": 0.1417
+    "productPrice": 0.1423
    },
    {
     "startNumber": 2000,
     "endNumber": 4999,
-    "productPrice": 0.0954
+    "productPrice": 0.0958
    },
    {
     "startNumber": 5000,
     "endNumber": -1,
-    "productPrice": 0.0927
+    "productPrice": 0.0931
    },
    {
     "startNumber": 1,
     "endNumber": 49,
-    "productPrice": 0.1794
+    "productPrice": 0.1802
    },
    {
     "startNumber": 1000,
     "endNumber": 1999,
-    "productPrice": 0.0999
+    "productPrice": 0.1004
    }
   ],
   "firstSortAccessId": "248c42d1f2d246498d91d5c9cad9dd16",
   "secondSortAccessId": "fd5ff95036c34627a2d0f3a2d41b2b51",
-  "canPresaleNumber": 367777,
+  "canPresaleNumber": 288978,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "Korean_HropartsElec-TYPE_C_31_M12/C165948",
@@ -873,7 +873,7 @@
   "shopCostPrice": 0.48,
   "preMinPurchaseNum": 49,
   "minPurchaseNum": 1,
-  "initialPrice": 0.1862,
+  "initialPrice": 0.1871,
   "componentCode": "C165948",
   "componentBrandEn": "Korean Hroparts Elec",
   "componentModelEn": "TYPE-C-31-M-12",
@@ -987,7 +987,7 @@
  "C173752": {
   "componentId": 185142,
   "componentLibraryType": "expand",
-  "stockCount": 148177,
+  "stockCount": 200140,
   "componentTypeEn": "Wire To Board Connector",
   "erpComponentName": "1x2P \u95f4\u8ddd:2mm \u5f2f\u63d2 \u7cfb\u5217:PH \u3010\u63d2\u4ef6\u3011",
   "componentSource": "shop",
@@ -1001,27 +1001,27 @@
    {
     "startNumber": 200,
     "endNumber": 999,
-    "productPrice": 0.0317
+    "productPrice": 0.0318
    },
    {
     "startNumber": 1000,
     "endNumber": 1999,
-    "productPrice": 0.0273
+    "productPrice": 0.0274
    },
    {
     "startNumber": 2000,
     "endNumber": 9999,
-    "productPrice": 0.0247
+    "productPrice": 0.0248
    },
    {
     "startNumber": 10000,
     "endNumber": 19999,
-    "productPrice": 0.0224
+    "productPrice": 0.0225
    },
    {
     "startNumber": 20000,
     "endNumber": -1,
-    "productPrice": 0.0211
+    "productPrice": 0.0212
    }
   ],
   "buyComponentPrices": [
@@ -1033,32 +1033,32 @@
    {
     "startNumber": 2000,
     "endNumber": 9999,
-    "productPrice": 0.0238
+    "productPrice": 0.0239
    },
    {
     "startNumber": 1000,
     "endNumber": 1999,
-    "productPrice": 0.0263
+    "productPrice": 0.0264
    },
    {
     "startNumber": 20000,
     "endNumber": -1,
-    "productPrice": 0.0203
+    "productPrice": 0.0204
    },
    {
     "startNumber": 200,
     "endNumber": 999,
-    "productPrice": 0.0305
+    "productPrice": 0.0307
    },
    {
     "startNumber": 10000,
     "endNumber": 19999,
-    "productPrice": 0.0216
+    "productPrice": 0.0217
    }
   ],
   "firstSortAccessId": "248c42d1f2d246498d91d5c9cad9dd16",
   "secondSortAccessId": "173a9139d1ba47df8739d202796819ee",
-  "canPresaleNumber": 147253,
+  "canPresaleNumber": 199229,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "JST-S2B_PH_K_S_LF_SN/C173752",
@@ -1075,8 +1075,8 @@
   "estimateDate": null,
   "fullReelPrice": null,
   "encapsulationNumber": 1000,
-  "shopCostPrice": 0.09,
-  "preMinPurchaseNum": 285,
+  "shopCostPrice": 0.08967,
+  "preMinPurchaseNum": 284,
   "minPurchaseNum": 1,
   "initialPrice": 0.0397,
   "componentCode": "C173752",
@@ -1194,7 +1194,7 @@
    },
    {
     "attribute_name_en": "Supplementary Features",
-    "attribute_value_name": "K Pin"
+    "attribute_value_name": "K-foot"
    },
    {
     "attribute_name_en": "Z-Height of the Board",
@@ -1228,7 +1228,7 @@
  "C19702": {
   "componentId": 20411,
   "componentLibraryType": "base",
-  "stockCount": 10020723,
+  "stockCount": 12441569,
   "componentTypeEn": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
   "erpComponentName": "10uF \u00b110% 10V",
   "componentSource": "shop",
@@ -1237,69 +1237,69 @@
    {
     "startNumber": 1,
     "endNumber": 199,
-    "productPrice": 0.0296
+    "productPrice": 0.0212
    },
    {
     "startNumber": 200,
     "endNumber": 599,
-    "productPrice": 0.0219
+    "productPrice": 0.0163
    },
    {
     "startNumber": 600,
     "endNumber": 3999,
-    "productPrice": 0.0185
+    "productPrice": 0.0142
    },
    {
     "startNumber": 4000,
     "endNumber": 7999,
-    "productPrice": 0.0159
+    "productPrice": 0.0126
    },
    {
     "startNumber": 8000,
     "endNumber": 19999,
-    "productPrice": 0.0149
+    "productPrice": 0.012
    },
    {
     "startNumber": 20000,
     "endNumber": -1,
-    "productPrice": 0.0142
+    "productPrice": 0.0115
    }
   ],
   "buyComponentPrices": [
    {
     "startNumber": 600,
     "endNumber": 3999,
-    "productPrice": 0.0178
+    "productPrice": 0.0137
    },
    {
     "startNumber": 4000,
     "endNumber": 7999,
-    "productPrice": 0.0153
+    "productPrice": 0.0121
    },
    {
     "startNumber": 1,
     "endNumber": 199,
-    "productPrice": 0.0285
+    "productPrice": 0.0204
    },
    {
     "startNumber": 200,
     "endNumber": 599,
-    "productPrice": 0.0211
+    "productPrice": 0.0157
    },
    {
     "startNumber": 8000,
     "endNumber": 19999,
-    "productPrice": 0.0144
+    "productPrice": 0.0115
    },
    {
     "startNumber": 20000,
     "endNumber": -1,
-    "productPrice": 0.0137
+    "productPrice": 0.0111
    }
   ],
   "firstSortAccessId": "1a513feddccb44f5bf49e1f5b9e5ffdb",
   "secondSortAccessId": "7e74f1d772c74e3d99bc4868d21962f2",
-  "canPresaleNumber": 8816715,
+  "canPresaleNumber": 10009648,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "20411-CL10A106KP8NNNC/C19702",
@@ -1316,10 +1316,10 @@
   "estimateDate": null,
   "fullReelPrice": null,
   "encapsulationNumber": 4000,
-  "shopCostPrice": 0.08695,
-  "preMinPurchaseNum": 412,
+  "shopCostPrice": 0.05457,
+  "preMinPurchaseNum": 554,
   "minPurchaseNum": 1,
-  "initialPrice": 0.0296,
+  "initialPrice": 0.0212,
   "componentCode": "C19702",
   "componentBrandEn": "Samsung Electro-Mechanics",
   "componentModelEn": "CL10A106KP8NNNC",
@@ -1398,7 +1398,7 @@
  "C21190": {
   "componentId": 21904,
   "componentLibraryType": "base",
-  "stockCount": 24176887,
+  "stockCount": 33293173,
   "componentTypeEn": "Chip Resistor - Surface Mount",
   "erpComponentName": "\u539a\u819c\u7535\u963b 1k\u03a9 \u00b11% 100mW",
   "componentSource": "shop",
@@ -1407,69 +1407,69 @@
    {
     "startNumber": 1,
     "endNumber": 999,
-    "productPrice": 0.0019
+    "productPrice": 0.0017
    },
    {
     "startNumber": 1000,
     "endNumber": 4999,
-    "productPrice": 0.0016
+    "productPrice": 0.0014
    },
    {
     "startNumber": 5000,
     "endNumber": 9999,
-    "productPrice": 0.0014
+    "productPrice": 0.0012
    },
    {
     "startNumber": 10000,
     "endNumber": 49999,
-    "productPrice": 0.0011
+    "productPrice": 0.001
    },
    {
     "startNumber": 50000,
     "endNumber": 50199,
-    "productPrice": 0.001
+    "productPrice": 0.0009
    },
    {
     "startNumber": 50200,
     "endNumber": -1,
-    "productPrice": 0.001
+    "productPrice": 0.0009
    }
   ],
   "buyComponentPrices": [
    {
     "startNumber": 5000,
     "endNumber": 9999,
-    "productPrice": 0.0013
+    "productPrice": 0.0012
    },
    {
     "startNumber": 1000,
     "endNumber": 4999,
-    "productPrice": 0.0015
+    "productPrice": 0.0013
    },
    {
     "startNumber": 50000,
     "endNumber": 50199,
-    "productPrice": 0.001
+    "productPrice": 0.0009
    },
    {
     "startNumber": 1,
     "endNumber": 999,
-    "productPrice": 0.0019
+    "productPrice": 0.0016
    },
    {
     "startNumber": 50200,
     "endNumber": -1,
-    "productPrice": 0.001
+    "productPrice": 0.0009
    },
    {
     "startNumber": 10000,
     "endNumber": 49999,
-    "productPrice": 0.0011
+    "productPrice": 0.0009
    }
   ],
   "firstSortAccessId": "b97df1fd049743c0a0330513eac35a72",
   "secondSortAccessId": "a49341812cad4b0bafa2ddd547a82bd4",
-  "canPresaleNumber": 17813710,
+  "canPresaleNumber": 26593651,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "21904-0603WAF1001T5E/C21190",
@@ -1486,10 +1486,10 @@
   "estimateDate": null,
   "fullReelPrice": null,
   "encapsulationNumber": 5000,
-  "shopCostPrice": 0.00402,
+  "shopCostPrice": 0.00351,
   "preMinPurchaseNum": 5000,
   "minPurchaseNum": 1,
-  "initialPrice": 0.0019,
+  "initialPrice": 0.0017,
   "componentCode": "C21190",
   "componentBrandEn": "UNI-ROYAL(Uniroyal Elec)",
   "componentModelEn": "0603WAF1001T5E",
@@ -1587,7 +1587,7 @@
  "C22787": {
   "componentId": 23514,
   "componentLibraryType": "base",
-  "stockCount": 2210023,
+  "stockCount": 2292244,
   "componentTypeEn": "Chip Resistor - Surface Mount",
   "erpComponentName": "\u539a\u819c\u7535\u963b 120\u03a9 \u00b11% 100mW",
   "componentSource": "shop",
@@ -1658,7 +1658,7 @@
   ],
   "firstSortAccessId": "b97df1fd049743c0a0330513eac35a72",
   "secondSortAccessId": "a49341812cad4b0bafa2ddd547a82bd4",
-  "canPresaleNumber": 1783948,
+  "canPresaleNumber": 1880589,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "23514-0603WAF1200T5E/C22787",
@@ -1675,7 +1675,7 @@
   "estimateDate": null,
   "fullReelPrice": null,
   "encapsulationNumber": 5000,
-  "shopCostPrice": 0.00388,
+  "shopCostPrice": 0.00385,
   "preMinPurchaseNum": 5000,
   "minPurchaseNum": 1,
   "initialPrice": 0.0019,
@@ -1776,7 +1776,7 @@
  "C2286": {
   "componentId": 2659,
   "componentLibraryType": "base",
-  "stockCount": 7819124,
+  "stockCount": 7543937,
   "componentTypeEn": "LED Indication - Discrete",
   "erpComponentName": "0603 \u7ea2\u706f \u9ad8\u4eae",
   "componentSource": "shop",
@@ -1785,12 +1785,12 @@
    {
     "startNumber": 1,
     "endNumber": 999,
-    "productPrice": 0.0076
+    "productPrice": 0.0077
    },
    {
     "startNumber": 1000,
     "endNumber": 3999,
-    "productPrice": 0.0058
+    "productPrice": 0.0059
    },
    {
     "startNumber": 4000,
@@ -1805,7 +1805,7 @@
    {
     "startNumber": 48000,
     "endNumber": 99999,
-    "productPrice": 0.0037
+    "productPrice": 0.0038
    },
    {
     "startNumber": 100000,
@@ -1817,7 +1817,7 @@
    {
     "startNumber": 1,
     "endNumber": 999,
-    "productPrice": 0.0073
+    "productPrice": 0.0074
    },
    {
     "startNumber": 4000,
@@ -1827,12 +1827,12 @@
    {
     "startNumber": 1000,
     "endNumber": 3999,
-    "productPrice": 0.0056
+    "productPrice": 0.0057
    },
    {
     "startNumber": 100000,
     "endNumber": -1,
-    "productPrice": 0.0034
+    "productPrice": 0.0035
    },
    {
     "startNumber": 48000,
@@ -1847,7 +1847,7 @@
   ],
   "firstSortAccessId": "2a1317eec5064bbb856a96033019985f",
   "secondSortAccessId": "f28f64fde70b4189a16bd6c99251d5c8",
-  "canPresaleNumber": 7167543,
+  "canPresaleNumber": 6859763,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "Hubei_KENTOElec-KT0603R/C2286",
@@ -1864,10 +1864,10 @@
   "estimateDate": null,
   "fullReelPrice": null,
   "encapsulationNumber": 4000,
-  "shopCostPrice": 0.01796,
-  "preMinPurchaseNum": 1556,
+  "shopCostPrice": 0.01797,
+  "preMinPurchaseNum": 1530,
   "minPurchaseNum": 1,
-  "initialPrice": 0.0076,
+  "initialPrice": 0.0077,
   "componentCode": "C2286",
   "componentBrandEn": "Hubei KENTO Elec",
   "componentModelEn": "KT-0603R",
@@ -1993,7 +1993,7 @@
  "C22935": {
   "componentId": 23662,
   "componentLibraryType": "base",
-  "stockCount": 5630668,
+  "stockCount": 5358015,
   "componentTypeEn": "Chip Resistor - Surface Mount",
   "erpComponentName": "\u539a\u819c\u7535\u963b 1M\u03a9 \u00b11% 100mW",
   "componentSource": "shop",
@@ -2002,32 +2002,32 @@
    {
     "startNumber": 1,
     "endNumber": 999,
-    "productPrice": 0.0019
+    "productPrice": 0.0018
    },
    {
     "startNumber": 1000,
     "endNumber": 4999,
-    "productPrice": 0.0015
+    "productPrice": 0.0014
    },
    {
     "startNumber": 5000,
     "endNumber": 9999,
-    "productPrice": 0.0013
+    "productPrice": 0.0012
    },
    {
     "startNumber": 10000,
     "endNumber": 49999,
-    "productPrice": 0.0011
+    "productPrice": 0.001
    },
    {
     "startNumber": 50000,
     "endNumber": 50199,
-    "productPrice": 0.001
+    "productPrice": 0.0009
    },
    {
     "startNumber": 50200,
     "endNumber": -1,
-    "productPrice": 0.001
+    "productPrice": 0.0009
    }
   ],
   "buyComponentPrices": [
@@ -2039,22 +2039,22 @@
    {
     "startNumber": 50000,
     "endNumber": 50199,
-    "productPrice": 0.001
+    "productPrice": 0.0009
    },
    {
     "startNumber": 50200,
     "endNumber": -1,
-    "productPrice": 0.001
+    "productPrice": 0.0009
    },
    {
     "startNumber": 1,
     "endNumber": 999,
-    "productPrice": 0.0019
+    "productPrice": 0.0018
    },
    {
     "startNumber": 10000,
     "endNumber": 49999,
-    "productPrice": 0.0011
+    "productPrice": 0.001
    },
    {
     "startNumber": 1000,
@@ -2064,7 +2064,7 @@
   ],
   "firstSortAccessId": "b97df1fd049743c0a0330513eac35a72",
   "secondSortAccessId": "a49341812cad4b0bafa2ddd547a82bd4",
-  "canPresaleNumber": 4890934,
+  "canPresaleNumber": 4597526,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "23662-0603WAF1004T5E/C22935",
@@ -2081,10 +2081,10 @@
   "estimateDate": null,
   "fullReelPrice": null,
   "encapsulationNumber": 5000,
-  "shopCostPrice": 0.00452,
+  "shopCostPrice": 0.00419,
   "preMinPurchaseNum": 5000,
   "minPurchaseNum": 1,
-  "initialPrice": 0.0019,
+  "initialPrice": 0.0018,
   "componentCode": "C22935",
   "componentBrandEn": "UNI-ROYAL(Uniroyal Elec)",
   "componentModelEn": "0603WAF1004T5E",
@@ -2182,7 +2182,7 @@
  "C2297": {
   "componentId": 2670,
   "componentLibraryType": "base",
-  "stockCount": 2709325,
+  "stockCount": 2337105,
   "componentTypeEn": "LED Indication - Discrete",
   "erpComponentName": "0805 \u7fe0\u7eff \u9ad8\u4eae",
   "componentSource": "shop",
@@ -2196,7 +2196,7 @@
    {
     "startNumber": 500,
     "endNumber": 2999,
-    "productPrice": 0.0127
+    "productPrice": 0.0128
    },
    {
     "startNumber": 3000,
@@ -2216,14 +2216,14 @@
    {
     "startNumber": 51000,
     "endNumber": -1,
-    "productPrice": 0.008
+    "productPrice": 0.0081
    }
   ],
   "buyComponentPrices": [
    {
     "startNumber": 3000,
     "endNumber": 5999,
-    "productPrice": 0.0097
+    "productPrice": 0.0098
    },
    {
     "startNumber": 500,
@@ -2233,12 +2233,12 @@
    {
     "startNumber": 51000,
     "endNumber": -1,
-    "productPrice": 0.0077
+    "productPrice": 0.0078
    },
    {
     "startNumber": 6000,
     "endNumber": 23999,
-    "productPrice": 0.0085
+    "productPrice": 0.0086
    },
    {
     "startNumber": 1,
@@ -2253,7 +2253,7 @@
   ],
   "firstSortAccessId": "2a1317eec5064bbb856a96033019985f",
   "secondSortAccessId": "f28f64fde70b4189a16bd6c99251d5c8",
-  "canPresaleNumber": 2469921,
+  "canPresaleNumber": 2090734,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "Hubei_KENTOElec-KT0805G/C2297",
@@ -2271,7 +2271,7 @@
   "fullReelPrice": null,
   "encapsulationNumber": 3000,
   "shopCostPrice": 0.037,
-  "preMinPurchaseNum": 711,
+  "preMinPurchaseNum": 705,
   "minPurchaseNum": 1,
   "initialPrice": 0.0164,
   "componentCode": "C2297",
@@ -2399,7 +2399,7 @@
  "C23162": {
   "componentId": 23889,
   "componentLibraryType": "base",
-  "stockCount": 19451661,
+  "stockCount": 16481231,
   "componentTypeEn": "Chip Resistor - Surface Mount",
   "erpComponentName": "\u539a\u819c\u7535\u963b 4.7k\u03a9 \u00b11% 100mW",
   "componentSource": "shop",
@@ -2470,7 +2470,7 @@
   ],
   "firstSortAccessId": "b97df1fd049743c0a0330513eac35a72",
   "secondSortAccessId": "a49341812cad4b0bafa2ddd547a82bd4",
-  "canPresaleNumber": 16346324,
+  "canPresaleNumber": 13212255,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "23889-0603WAF4701T5E/C23162",
@@ -2588,7 +2588,7 @@
  "C23186": {
   "componentId": 23913,
   "componentLibraryType": "base",
-  "stockCount": 23756446,
+  "stockCount": 21786102,
   "componentTypeEn": "Chip Resistor - Surface Mount",
   "erpComponentName": "\u539a\u819c\u7535\u963b 5.1k\u03a9 \u00b11% 100mW",
   "componentSource": "shop",
@@ -2617,12 +2617,12 @@
    {
     "startNumber": 50000,
     "endNumber": 50199,
-    "productPrice": 0.0008
+    "productPrice": 0.0007
    },
    {
     "startNumber": 50200,
     "endNumber": -1,
-    "productPrice": 0.0008
+    "productPrice": 0.0007
    }
   ],
   "buyComponentPrices": [
@@ -2659,7 +2659,7 @@
   ],
   "firstSortAccessId": "b97df1fd049743c0a0330513eac35a72",
   "secondSortAccessId": "a49341812cad4b0bafa2ddd547a82bd4",
-  "canPresaleNumber": 22501330,
+  "canPresaleNumber": 20462014,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "23913-0603WAF5101T5E/C23186",
@@ -2777,7 +2777,7 @@
  "C23228": {
   "componentId": 23955,
   "componentLibraryType": "base",
-  "stockCount": 2198377,
+  "stockCount": 1964184,
   "componentTypeEn": "Chip Resistor - Surface Mount",
   "erpComponentName": "\u539a\u819c\u7535\u963b 680\u03a9 \u00b11% 100mW",
   "componentSource": "shop",
@@ -2791,7 +2791,7 @@
    {
     "startNumber": 1000,
     "endNumber": 4999,
-    "productPrice": 0.0016
+    "productPrice": 0.0017
    },
    {
     "startNumber": 5000,
@@ -2848,7 +2848,7 @@
   ],
   "firstSortAccessId": "b97df1fd049743c0a0330513eac35a72",
   "secondSortAccessId": "a49341812cad4b0bafa2ddd547a82bd4",
-  "canPresaleNumber": 2005286,
+  "canPresaleNumber": 1757942,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "23955-0603WAF6800T5E/C23228",
@@ -2966,7 +2966,7 @@
  "C25803": {
   "componentId": 26546,
   "componentLibraryType": "base",
-  "stockCount": 19739947,
+  "stockCount": 17484349,
   "componentTypeEn": "Chip Resistor - Surface Mount",
   "erpComponentName": "\u539a\u819c\u7535\u963b 100k\u03a9 \u00b11% 100mW",
   "componentSource": "shop",
@@ -3037,7 +3037,7 @@
   ],
   "firstSortAccessId": "b97df1fd049743c0a0330513eac35a72",
   "secondSortAccessId": "a49341812cad4b0bafa2ddd547a82bd4",
-  "canPresaleNumber": 17484905,
+  "canPresaleNumber": 15153510,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "26546-0603WAF1003T5E/C25803",
@@ -3155,7 +3155,7 @@
  "C25804": {
   "componentId": 26547,
   "componentLibraryType": "base",
-  "stockCount": 32272061,
+  "stockCount": 38461017,
   "componentTypeEn": "Chip Resistor - Surface Mount",
   "erpComponentName": "\u539a\u819c\u7535\u963b 10k\u03a9 \u00b11% 100mW",
   "componentSource": "shop",
@@ -3164,69 +3164,69 @@
    {
     "startNumber": 1,
     "endNumber": 999,
-    "productPrice": 0.0052
+    "productPrice": 0.0018
    },
    {
     "startNumber": 1000,
     "endNumber": 4999,
-    "productPrice": 0.0043
+    "productPrice": 0.0015
    },
    {
     "startNumber": 5000,
     "endNumber": 9999,
-    "productPrice": 0.0039
+    "productPrice": 0.0013
    },
    {
     "startNumber": 10000,
     "endNumber": 49999,
-    "productPrice": 0.0036
+    "productPrice": 0.0012
    },
    {
     "startNumber": 50000,
-    "endNumber": 99999,
-    "productPrice": 0.0035
+    "endNumber": 50199,
+    "productPrice": 0.0011
    },
    {
-    "startNumber": 100000,
+    "startNumber": 50200,
     "endNumber": -1,
-    "productPrice": 0.0034
+    "productPrice": 0.0011
    }
   ],
   "buyComponentPrices": [
    {
     "startNumber": 1,
     "endNumber": 999,
-    "productPrice": 0.005
+    "productPrice": 0.0017
    },
    {
     "startNumber": 5000,
     "endNumber": 9999,
-    "productPrice": 0.0038
+    "productPrice": 0.0013
    },
    {
     "startNumber": 1000,
     "endNumber": 4999,
-    "productPrice": 0.0042
+    "productPrice": 0.0014
    },
    {
     "startNumber": 50000,
-    "endNumber": 99999,
-    "productPrice": 0.0034
+    "endNumber": 50199,
+    "productPrice": 0.0011
    },
    {
     "startNumber": 10000,
     "endNumber": 49999,
-    "productPrice": 0.0035
+    "productPrice": 0.0012
    },
    {
-    "startNumber": 100000,
+    "startNumber": 50200,
     "endNumber": -1,
-    "productPrice": 0.0033
+    "productPrice": 0.0011
    }
   ],
   "firstSortAccessId": "b97df1fd049743c0a0330513eac35a72",
   "secondSortAccessId": "a49341812cad4b0bafa2ddd547a82bd4",
-  "canPresaleNumber": 22466156,
+  "canPresaleNumber": 28211208,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "26547-0603WAF1002T5E/C25804",
@@ -3243,10 +3243,10 @@
   "estimateDate": null,
   "fullReelPrice": null,
   "encapsulationNumber": 5000,
-  "shopCostPrice": 0.00402,
-  "preMinPurchaseNum": 2099,
+  "shopCostPrice": 0.004,
+  "preMinPurchaseNum": 5000,
   "minPurchaseNum": 1,
-  "initialPrice": 0.0052,
+  "initialPrice": 0.0018,
   "componentCode": "C25804",
   "componentBrandEn": "UNI-ROYAL(Uniroyal Elec)",
   "componentModelEn": "0603WAF1002T5E",
@@ -3344,7 +3344,7 @@
  "C2926676": {
   "componentId": 3250151,
   "componentLibraryType": "expand",
-  "stockCount": 2698,
+  "stockCount": 5695,
   "componentTypeEn": "WiFi Modules",
   "erpComponentName": "\u4e0d\u5e26\u56fa\u4ef6 2.4GHz Wi-Fi\uff08802.11b/g/n\uff09+ \u84dd\u72595\u6a21\u7ec4",
   "componentSource": "shop",
@@ -3353,69 +3353,69 @@
    {
     "startNumber": 1,
     "endNumber": 9,
-    "productPrice": 3.0816
+    "productPrice": 3.2361
    },
    {
     "startNumber": 10,
     "endNumber": 29,
-    "productPrice": 2.7473
+    "productPrice": 2.8414
    },
    {
     "startNumber": 30,
     "endNumber": 99,
-    "productPrice": 2.5484
+    "productPrice": 2.64
    },
    {
     "startNumber": 100,
     "endNumber": 649,
-    "productPrice": 2.2468
+    "productPrice": 2.2338
    },
    {
     "startNumber": 650,
     "endNumber": 1299,
-    "productPrice": 2.1359
+    "productPrice": 2.1372
    },
    {
     "startNumber": 1300,
     "endNumber": -1,
-    "productPrice": 2.087
+    "productPrice": 2.0963
    }
   ],
   "buyComponentPrices": [
    {
     "startNumber": 30,
     "endNumber": 99,
-    "productPrice": 2.4549
+    "productPrice": 2.5431
    },
    {
     "startNumber": 100,
     "endNumber": 649,
-    "productPrice": 2.1644
+    "productPrice": 2.1519
    },
    {
     "startNumber": 1,
     "endNumber": 9,
-    "productPrice": 2.9685
+    "productPrice": 3.1173
    },
    {
     "startNumber": 650,
     "endNumber": 1299,
-    "productPrice": 2.0575
+    "productPrice": 2.0588
    },
    {
     "startNumber": 10,
     "endNumber": 29,
-    "productPrice": 2.6465
+    "productPrice": 2.7371
    },
    {
     "startNumber": 1300,
     "endNumber": -1,
-    "productPrice": 2.0104
+    "productPrice": 2.0193
    }
   ],
   "firstSortAccessId": "3f47180447344e189d9b9aa7555c0cb3",
   "secondSortAccessId": "c5a9b644133240c89506f8439edd2b11",
-  "canPresaleNumber": 2435,
+  "canPresaleNumber": 5387,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "3250151-ESP32_C3_WROOM_02UN4/C2926676",
@@ -3432,10 +3432,10 @@
   "estimateDate": null,
   "fullReelPrice": null,
   "encapsulationNumber": 650,
-  "shopCostPrice": 11.00002,
+  "shopCostPrice": 11.00003,
   "preMinPurchaseNum": 3,
   "minPurchaseNum": 1,
-  "initialPrice": 3.0816,
+  "initialPrice": 3.2361,
   "componentCode": "C2926676",
   "componentBrandEn": "Espressif Systems",
   "componentModelEn": "ESP32-C3-WROOM-02U-N4",
@@ -3480,7 +3480,11 @@
   "attributes": [
    {
     "attribute_name_en": "Operating Temperature",
-    "attribute_value_name": "-40\u2103~+105\u2103"
+    "attribute_value_name": "-40\u2103~+85\u2103"
+   },
+   {
+    "attribute_name_en": "Antenna Type",
+    "attribute_value_name": "-"
    },
    {
     "attribute_name_en": "Sensitivity",
@@ -3497,6 +3501,10 @@
    {
     "attribute_name_en": "Frequency",
     "attribute_value_name": "2.4GHz"
+   },
+   {
+    "attribute_name_en": "Features",
+    "attribute_value_name": "-"
    },
    {
     "attribute_name_en": "Utilized IC / Part",
@@ -3538,7 +3546,7 @@
  "C318884": {
   "componentId": 299976,
   "componentLibraryType": "base",
-  "stockCount": 305539,
+  "stockCount": 1163194,
   "componentTypeEn": "Tactile Switches",
   "erpComponentName": "5.1*5.1*1.5mm \u7acb\u8d34 \u8f7b\u89e6\u5f00\u5173",
   "componentSource": "shop",
@@ -3547,74 +3555,74 @@
    {
     "startNumber": 1,
     "endNumber": 199,
-    "productPrice": 0.0206
+    "productPrice": 0.0207
    },
    {
     "startNumber": 200,
     "endNumber": 599,
-    "productPrice": 0.0159
+    "productPrice": 0.016
    },
    {
     "startNumber": 600,
     "endNumber": 3999,
-    "productPrice": 0.0138
+    "productPrice": 0.0139
    },
    {
     "startNumber": 4000,
     "endNumber": 7999,
-    "productPrice": 0.012
+    "productPrice": 0.0121
    },
    {
     "startNumber": 8000,
     "endNumber": 19999,
-    "productPrice": 0.0114
+    "productPrice": 0.0115
    },
    {
     "startNumber": 20000,
     "endNumber": -1,
-    "productPrice": 0.011
+    "productPrice": 0.0111
    }
   ],
   "buyComponentPrices": [
    {
     "startNumber": 8000,
     "endNumber": 19999,
-    "productPrice": 0.011
+    "productPrice": 0.0111
    },
    {
     "startNumber": 200,
     "endNumber": 599,
-    "productPrice": 0.0153
+    "productPrice": 0.0154
    },
    {
     "startNumber": 600,
     "endNumber": 3999,
-    "productPrice": 0.0133
+    "productPrice": 0.0134
    },
    {
     "startNumber": 1,
     "endNumber": 199,
-    "productPrice": 0.0198
+    "productPrice": 0.0199
    },
    {
     "startNumber": 4000,
     "endNumber": 7999,
-    "productPrice": 0.0116
+    "productPrice": 0.0117
    },
    {
     "startNumber": 20000,
     "endNumber": -1,
-    "productPrice": 0.0106
+    "productPrice": 0.0107
    }
   ],
   "firstSortAccessId": "40dca760dc0b4eeabb9db4593427352f",
   "secondSortAccessId": "a1d999237cf24332971a76b137b80868",
-  "canPresaleNumber": 234494,
+  "canPresaleNumber": 1089684,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "XKBConnection-TS_1187A_B_AB/C318884",
   "leastPatchNumber": 5,
-  "lossNumber": 5,
+  "lossNumber": 8,
   "isBuyComponent": "1",
   "noBuyReason": null,
   "componentAlternativesCode": null,
@@ -3627,9 +3635,9 @@
   "fullReelPrice": null,
   "encapsulationNumber": 4000,
   "shopCostPrice": 0.0525,
-  "preMinPurchaseNum": 568,
+  "preMinPurchaseNum": 564,
   "minPurchaseNum": 1,
-  "initialPrice": 0.0206,
+  "initialPrice": 0.0207,
   "componentCode": "C318884",
   "componentBrandEn": "XKB Connection",
   "componentModelEn": "TS-1187A-B-A-B",
@@ -3748,7 +3756,7 @@
  "C32677": {
   "componentId": 33642,
   "componentLibraryType": "base",
-  "stockCount": 188900,
+  "stockCount": 152286,
   "componentTypeEn": "ESD and Surge Protection (TVS/ESD)",
   "erpComponentName": "\u5355\u5411TVS 12V\u622a\u6b62 \u5cf0\u503c\u6d6a\u6d8c\u7535\u6d41\uff1a34A@8/20us 30A@8/20us",
   "componentSource": "shop",
@@ -3757,74 +3765,74 @@
    {
     "startNumber": 1,
     "endNumber": 49,
-    "productPrice": 0.324
+    "productPrice": 0.3448
    },
    {
     "startNumber": 50,
     "endNumber": 149,
-    "productPrice": 0.2539
+    "productPrice": 0.273
    },
    {
     "startNumber": 150,
     "endNumber": 499,
-    "productPrice": 0.2198
+    "productPrice": 0.2424
    },
    {
     "startNumber": 500,
     "endNumber": 2999,
-    "productPrice": 0.1893
+    "productPrice": 0.2039
    },
    {
     "startNumber": 3000,
     "endNumber": 5999,
-    "productPrice": 0.1809
+    "productPrice": 0.1869
    },
    {
     "startNumber": 6000,
     "endNumber": -1,
-    "productPrice": 0.1759
+    "productPrice": 0.1767
    }
   ],
   "buyComponentPrices": [
    {
     "startNumber": 500,
     "endNumber": 2999,
-    "productPrice": 0.1824
+    "productPrice": 0.1965
    },
    {
     "startNumber": 1,
     "endNumber": 49,
-    "productPrice": 0.3121
+    "productPrice": 0.3321
    },
    {
     "startNumber": 6000,
     "endNumber": -1,
-    "productPrice": 0.1694
+    "productPrice": 0.1702
    },
    {
     "startNumber": 50,
     "endNumber": 149,
-    "productPrice": 0.2446
+    "productPrice": 0.263
    },
    {
     "startNumber": 150,
     "endNumber": 499,
-    "productPrice": 0.2118
+    "productPrice": 0.2335
    },
    {
     "startNumber": 3000,
     "endNumber": 5999,
-    "productPrice": 0.1742
+    "productPrice": 0.1801
    }
   ],
   "firstSortAccessId": "68f218c9a74e4148a83415d14e926c64",
   "secondSortAccessId": "434702f18e684c28a613a717cb768f2b",
-  "canPresaleNumber": 172126,
+  "canPresaleNumber": 134008,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "ProTekDevices-PSM712_LFT7/C32677",
   "leastPatchNumber": 5,
-  "lossNumber": 0,
+  "lossNumber": 1,
   "isBuyComponent": "1",
   "noBuyReason": null,
   "componentAlternativesCode": null,
@@ -3837,9 +3845,9 @@
   "fullReelPrice": null,
   "encapsulationNumber": 3000,
   "shopCostPrice": 0.86908,
-  "preMinPurchaseNum": 28,
+  "preMinPurchaseNum": 27,
   "minPurchaseNum": 1,
-  "initialPrice": 0.324,
+  "initialPrice": 0.3448,
   "componentCode": "C32677",
   "componentBrandEn": "ProTek Devices",
   "componentModelEn": "PSM712-LF-T7",
@@ -3953,7 +3961,7 @@
  "C557685": {
   "componentId": 581048,
   "componentLibraryType": "expand",
-  "stockCount": 5674,
+  "stockCount": 5184,
   "componentTypeEn": "Screw Terminal Blocks",
   "erpComponentName": "1x2P 2.54mm \u76f4\u63d2 \u6392\u6570:1 \u6bcf\u6392P\u6570:2 \u3010\u87ba\u9489\u3011",
   "componentSource": "shop",
@@ -3962,69 +3970,69 @@
    {
     "startNumber": 1,
     "endNumber": 49,
-    "productPrice": 0.2472
+    "productPrice": 0.2483
    },
    {
     "startNumber": 50,
     "endNumber": 149,
-    "productPrice": 0.1946
+    "productPrice": 0.1954
    },
    {
     "startNumber": 150,
     "endNumber": 999,
-    "productPrice": 0.172
+    "productPrice": 0.1728
    },
    {
     "startNumber": 1000,
     "endNumber": 1999,
-    "productPrice": 0.1349
+    "productPrice": 0.1355
    },
    {
     "startNumber": 2000,
     "endNumber": 4999,
-    "productPrice": 0.1223
+    "productPrice": 0.1229
    },
    {
     "startNumber": 5000,
     "endNumber": -1,
-    "productPrice": 0.1148
+    "productPrice": 0.1153
    }
   ],
   "buyComponentPrices": [
    {
     "startNumber": 150,
     "endNumber": 999,
-    "productPrice": 0.1657
+    "productPrice": 0.1665
    },
    {
     "startNumber": 50,
     "endNumber": 149,
-    "productPrice": 0.1874
+    "productPrice": 0.1883
    },
    {
     "startNumber": 2000,
     "endNumber": 4999,
-    "productPrice": 0.1178
+    "productPrice": 0.1184
    },
    {
     "startNumber": 5000,
     "endNumber": -1,
-    "productPrice": 0.1106
+    "productPrice": 0.1111
    },
    {
     "startNumber": 1,
     "endNumber": 49,
-    "productPrice": 0.2382
+    "productPrice": 0.2392
    },
    {
     "startNumber": 1000,
     "endNumber": 1999,
-    "productPrice": 0.1299
+    "productPrice": 0.1305
    }
   ],
   "firstSortAccessId": "248c42d1f2d246498d91d5c9cad9dd16",
   "secondSortAccessId": "e955493f42604e9f87b66e88320df6f6",
-  "canPresaleNumber": 5497,
+  "canPresaleNumber": 5020,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "Ningbo_Xinlaiya_Elec-XY308_2_542P/C557685",
@@ -4044,7 +4052,7 @@
   "shopCostPrice": 0.64,
   "preMinPurchaseNum": 37,
   "minPurchaseNum": 1,
-  "initialPrice": 0.2472,
+  "initialPrice": 0.2483,
   "componentCode": "C557685",
   "componentBrandEn": "Ningbo Xinlaiya Elec.",
   "componentModelEn": "XY308-2.54-2P",
@@ -4163,7 +4171,7 @@
  "C557686": {
   "componentId": 581049,
   "componentLibraryType": "expand",
-  "stockCount": 6169,
+  "stockCount": 6112,
   "componentTypeEn": "Screw Terminal Blocks",
   "erpComponentName": "1x3P 2.54mm \u76f4\u63d2 \u6392\u6570:1 \u6bcf\u6392P\u6570:3 \u3010\u87ba\u9489\u3011",
   "componentSource": "shop",
@@ -4172,69 +4180,69 @@
    {
     "startNumber": 1,
     "endNumber": 49,
-    "productPrice": 0.3786
+    "productPrice": 0.3803
    },
    {
     "startNumber": 50,
     "endNumber": 149,
-    "productPrice": 0.2999
+    "productPrice": 0.3012
    },
    {
     "startNumber": 150,
     "endNumber": 799,
-    "productPrice": 0.266
+    "productPrice": 0.2672
    },
    {
     "startNumber": 800,
     "endNumber": 2399,
-    "productPrice": 0.2022
+    "productPrice": 0.2031
    },
    {
     "startNumber": 2400,
     "endNumber": 4799,
-    "productPrice": 0.1835
+    "productPrice": 0.1843
    },
    {
     "startNumber": 4800,
     "endNumber": -1,
-    "productPrice": 0.1722
+    "productPrice": 0.173
    }
   ],
   "buyComponentPrices": [
    {
     "startNumber": 2400,
     "endNumber": 4799,
-    "productPrice": 0.1767
+    "productPrice": 0.1775
    },
    {
     "startNumber": 800,
     "endNumber": 2399,
-    "productPrice": 0.1948
+    "productPrice": 0.1957
    },
    {
     "startNumber": 150,
     "endNumber": 799,
-    "productPrice": 0.2562
+    "productPrice": 0.2574
    },
    {
     "startNumber": 1,
     "endNumber": 49,
-    "productPrice": 0.3647
+    "productPrice": 0.3664
    },
    {
     "startNumber": 4800,
     "endNumber": -1,
-    "productPrice": 0.1659
+    "productPrice": 0.1666
    },
    {
     "startNumber": 50,
     "endNumber": 149,
-    "productPrice": 0.2889
+    "productPrice": 0.2902
    }
   ],
   "firstSortAccessId": "248c42d1f2d246498d91d5c9cad9dd16",
   "secondSortAccessId": "e955493f42604e9f87b66e88320df6f6",
-  "canPresaleNumber": 6096,
+  "canPresaleNumber": 6058,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "Ningbo_Xinlaiya_Elec-XY308_2_543P/C557686",
@@ -4254,7 +4262,7 @@
   "shopCostPrice": 0.96,
   "preMinPurchaseNum": 24,
   "minPurchaseNum": 1,
-  "initialPrice": 0.3786,
+  "initialPrice": 0.3803,
   "componentCode": "C557686",
   "componentBrandEn": "Ningbo Xinlaiya Elec.",
   "componentModelEn": "XY308-2.54-3P",
@@ -4373,7 +4381,7 @@
  "C80628": {
   "componentId": 81778,
   "componentLibraryType": "expand",
-  "stockCount": 2177,
+  "stockCount": 1351,
   "componentTypeEn": "Battery Management",
   "erpComponentName": "\u5355\u8282\u9502\u79bb\u5b50/\u805a\u5408\u7269\u7535\u6c60\u4fdd\u62a4\u96c6\u6210\u7535\u8def",
   "componentSource": "shop",
@@ -4382,69 +4390,69 @@
    {
     "startNumber": 1,
     "endNumber": 49,
-    "productPrice": 0.0878
+    "productPrice": 0.0882
    },
    {
     "startNumber": 50,
     "endNumber": 149,
-    "productPrice": 0.0695
+    "productPrice": 0.0698
    },
    {
     "startNumber": 150,
     "endNumber": 499,
-    "productPrice": 0.0602
+    "productPrice": 0.0605
    },
    {
     "startNumber": 500,
     "endNumber": 2999,
-    "productPrice": 0.0534
+    "productPrice": 0.0536
    },
    {
     "startNumber": 3000,
     "endNumber": 5999,
-    "productPrice": 0.0478
+    "productPrice": 0.048
    },
    {
     "startNumber": 6000,
     "endNumber": -1,
-    "productPrice": 0.0451
+    "productPrice": 0.0452
    }
   ],
   "buyComponentPrices": [
    {
     "startNumber": 3000,
     "endNumber": 5999,
-    "productPrice": 0.0461
+    "productPrice": 0.0463
    },
    {
     "startNumber": 6000,
     "endNumber": -1,
-    "productPrice": 0.0434
+    "productPrice": 0.0436
    },
    {
     "startNumber": 500,
     "endNumber": 2999,
-    "productPrice": 0.0514
+    "productPrice": 0.0516
    },
    {
     "startNumber": 150,
     "endNumber": 499,
-    "productPrice": 0.058
+    "productPrice": 0.0583
    },
    {
     "startNumber": 1,
     "endNumber": 49,
-    "productPrice": 0.0845
+    "productPrice": 0.0849
    },
    {
     "startNumber": 50,
     "endNumber": 149,
-    "productPrice": 0.067
+    "productPrice": 0.0673
    }
   ],
   "firstSortAccessId": "a7ca7be1124b46818df6480f00698e25",
   "secondSortAccessId": "cca499faefe0487cab22251edb29c551",
-  "canPresaleNumber": 2159,
+  "canPresaleNumber": 1166,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "XySemi-XB5353A/C80628",
@@ -4464,7 +4472,7 @@
   "shopCostPrice": 0.235,
   "preMinPurchaseNum": 130,
   "minPurchaseNum": 1,
-  "initialPrice": 0.0878,
+  "initialPrice": 0.0882,
   "componentCode": "C80628",
   "componentBrandEn": "XySemi",
   "componentModelEn": "XB5353A",
@@ -4590,7 +4598,7 @@
  "C82942": {
   "componentId": 84106,
   "componentLibraryType": "expand",
-  "stockCount": 171470,
+  "stockCount": 287132,
   "componentTypeEn": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
   "erpComponentName": "3.3V 500mA 6V",
   "componentSource": "shop",
@@ -4599,18 +4607,35 @@
    {
     "startNumber": 1,
     "endNumber": 99,
-    "productPrice": 0.0614
+    "productPrice": 0.0636
    },
    {
     "startNumber": 100,
     "endNumber": 299,
-    "productPrice": 0.0498
+    "productPrice": 0.0516
    },
    {
     "startNumber": 300,
     "endNumber": 2999,
-    "productPrice": 0.0437
+    "productPrice": 0.0454
    },
+   {
+    "startNumber": 3000,
+    "endNumber": 5999,
+    "productPrice": 0.0403
+   },
+   {
+    "startNumber": 6000,
+    "endNumber": 8999,
+    "productPrice": 0.0385
+   },
+   {
+    "startNumber": 9000,
+    "endNumber": -1,
+    "productPrice": 0.0374
+   }
+  ],
+  "buyComponentPrices": [
    {
     "startNumber": 3000,
     "endNumber": 5999,
@@ -4619,54 +4644,37 @@
    {
     "startNumber": 6000,
     "endNumber": 8999,
-    "productPrice": 0.0372
+    "productPrice": 0.0371
    },
    {
     "startNumber": 9000,
     "endNumber": -1,
-    "productPrice": 0.0361
-   }
-  ],
-  "buyComponentPrices": [
-   {
-    "startNumber": 3000,
-    "endNumber": 5999,
-    "productPrice": 0.0374
-   },
-   {
-    "startNumber": 6000,
-    "endNumber": 8999,
-    "productPrice": 0.0359
-   },
-   {
-    "startNumber": 9000,
-    "endNumber": -1,
-    "productPrice": 0.0348
+    "productPrice": 0.036
    },
    {
     "startNumber": 1,
     "endNumber": 99,
-    "productPrice": 0.0591
+    "productPrice": 0.0613
    },
    {
     "startNumber": 300,
     "endNumber": 2999,
-    "productPrice": 0.0421
+    "productPrice": 0.0437
    },
    {
     "startNumber": 100,
     "endNumber": 299,
-    "productPrice": 0.048
+    "productPrice": 0.0497
    }
   ],
   "firstSortAccessId": "a7ca7be1124b46818df6480f00698e25",
   "secondSortAccessId": "0bc894ef3cfe4df6b5376bcb5a199f74",
-  "canPresaleNumber": 162944,
+  "canPresaleNumber": 279261,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "84106-ME6211C33M5GN/C82942",
   "leastPatchNumber": 5,
-  "lossNumber": 0,
+  "lossNumber": 2,
   "isBuyComponent": "1",
   "noBuyReason": null,
   "componentAlternativesCode": null,
@@ -4678,10 +4686,10 @@
   "estimateDate": null,
   "fullReelPrice": null,
   "encapsulationNumber": 3000,
-  "shopCostPrice": 0.16901,
-  "preMinPurchaseNum": 182,
+  "shopCostPrice": 0.17441,
+  "preMinPurchaseNum": 175,
   "minPurchaseNum": 1,
-  "initialPrice": 0.0614,
+  "initialPrice": 0.0636,
   "componentCode": "C82942",
   "componentBrandEn": "MICRONE(Nanjing Micro One Elec)",
   "componentModelEn": "ME6211C33M5G-N",
@@ -4799,7 +4807,7 @@
  "C8678": {
   "componentId": 9178,
   "componentLibraryType": "base",
-  "stockCount": 3999134,
+  "stockCount": 3533464,
   "componentTypeEn": "Schottky Diodes",
   "erpComponentName": "SS34",
   "componentSource": "shop",
@@ -4808,22 +4816,22 @@
    {
     "startNumber": 1,
     "endNumber": 199,
-    "productPrice": 0.0349
+    "productPrice": 0.0351
    },
    {
     "startNumber": 200,
     "endNumber": 599,
-    "productPrice": 0.0281
+    "productPrice": 0.0282
    },
    {
     "startNumber": 600,
     "endNumber": 4999,
-    "productPrice": 0.025
+    "productPrice": 0.0251
    },
    {
     "startNumber": 5000,
     "endNumber": 9999,
-    "productPrice": 0.017
+    "productPrice": 0.0171
    },
    {
     "startNumber": 10000,
@@ -4840,17 +4848,17 @@
    {
     "startNumber": 200,
     "endNumber": 599,
-    "productPrice": 0.0271
+    "productPrice": 0.0272
    },
    {
     "startNumber": 5000,
     "endNumber": 9999,
-    "productPrice": 0.0164
+    "productPrice": 0.0165
    },
    {
     "startNumber": 1,
     "endNumber": 199,
-    "productPrice": 0.0337
+    "productPrice": 0.0338
    },
    {
     "startNumber": 10000,
@@ -4860,17 +4868,17 @@
    {
     "startNumber": 20000,
     "endNumber": -1,
-    "productPrice": 0.0149
+    "productPrice": 0.015
    },
    {
     "startNumber": 600,
     "endNumber": 4999,
-    "productPrice": 0.0241
+    "productPrice": 0.0242
    }
   ],
   "firstSortAccessId": "2dc9a747be3d4be78948b03a3063559a",
   "secondSortAccessId": "8c33c764fe0c4284aa9a8a0e84b8be11",
-  "canPresaleNumber": 3776184,
+  "canPresaleNumber": 3304466,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "MDD_Microdiode_Semiconductor-SS34/C8678",
@@ -4888,9 +4896,9 @@
   "fullReelPrice": null,
   "encapsulationNumber": 5000,
   "shopCostPrice": 0.07816,
-  "preMinPurchaseNum": 322,
+  "preMinPurchaseNum": 320,
   "minPurchaseNum": 1,
-  "initialPrice": 0.0349,
+  "initialPrice": 0.0351,
   "componentCode": "C8678",
   "componentBrandEn": "MDD(Microdiode Semiconductor)",
   "componentModelEn": "SS34",
@@ -4992,7 +5000,7 @@
  "C8963": {
   "componentId": 9482,
   "componentLibraryType": "base",
-  "stockCount": 303009,
+  "stockCount": 358710,
   "componentTypeEn": "RS-485 / RS-422 ICs",
   "erpComponentName": "SP3485 +3.3V\u4f4e\u529f\u8017\u534a\u53cc\u5de5RS-485\u6536\u53d1\u5668\uff0c\u6570\u636e\u901f\u738710Mbps",
   "componentSource": "shop",
@@ -5001,69 +5009,69 @@
    {
     "startNumber": 1,
     "endNumber": 19,
-    "productPrice": 0.2671
+    "productPrice": 0.2642
    },
    {
     "startNumber": 20,
     "endNumber": 59,
-    "productPrice": 0.2043
+    "productPrice": 0.2051
    },
    {
     "startNumber": 60,
     "endNumber": 199,
-    "productPrice": 0.1738
+    "productPrice": 0.1763
    },
    {
     "startNumber": 200,
     "endNumber": 999,
-    "productPrice": 0.1466
+    "productPrice": 0.1506
    },
    {
     "startNumber": 1000,
     "endNumber": 2499,
-    "productPrice": 0.1391
+    "productPrice": 0.1435
    },
    {
     "startNumber": 2500,
     "endNumber": -1,
-    "productPrice": 0.1346
+    "productPrice": 0.1393
    }
   ],
   "buyComponentPrices": [
    {
     "startNumber": 2500,
     "endNumber": -1,
-    "productPrice": 0.1296
+    "productPrice": 0.1341
    },
    {
     "startNumber": 1,
     "endNumber": 19,
-    "productPrice": 0.2573
+    "productPrice": 0.2545
    },
    {
     "startNumber": 1000,
     "endNumber": 2499,
-    "productPrice": 0.134
+    "productPrice": 0.1382
    },
    {
     "startNumber": 20,
     "endNumber": 59,
-    "productPrice": 0.1968
+    "productPrice": 0.1976
    },
    {
     "startNumber": 60,
     "endNumber": 199,
-    "productPrice": 0.1675
+    "productPrice": 0.1698
    },
    {
     "startNumber": 200,
     "endNumber": 999,
-    "productPrice": 0.1412
+    "productPrice": 0.145
    }
   ],
   "firstSortAccessId": "2ade39b3eb5f47a0b806a0d0611c9b6c",
   "secondSortAccessId": "b88549a74aaf43b3a7e9ff80932ee728",
-  "canPresaleNumber": 254361,
+  "canPresaleNumber": 308097,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "MaxLinear-SP3485EN_LTR/C8963",
@@ -5080,10 +5088,10 @@
   "estimateDate": null,
   "fullReelPrice": null,
   "encapsulationNumber": 2500,
-  "shopCostPrice": 0.74795,
-  "preMinPurchaseNum": 45,
+  "shopCostPrice": 0.73068,
+  "preMinPurchaseNum": 44,
   "minPurchaseNum": 1,
-  "initialPrice": 0.2671,
+  "initialPrice": 0.2642,
   "componentCode": "C8963",
   "componentBrandEn": "MaxLinear",
   "componentModelEn": "SP3485EN-L/TR",
@@ -5197,7 +5205,7 @@
  "C915914": {
   "componentId": 989796,
   "componentLibraryType": "expand",
-  "stockCount": 6392,
+  "stockCount": 6250,
   "componentTypeEn": "Screw Terminal Blocks",
   "erpComponentName": "1x5P 2.54mm \u76f4\u63d2 \u6392\u6570:1 \u6bcf\u6392P\u6570:5 \u3010\u63d2\u62d4\u3011",
   "componentSource": "shop",
@@ -5206,69 +5214,69 @@
    {
     "startNumber": 1,
     "endNumber": 9,
-    "productPrice": 0.6229
+    "productPrice": 0.6256
    },
    {
     "startNumber": 10,
     "endNumber": 29,
-    "productPrice": 0.5104
+    "productPrice": 0.5126
    },
    {
     "startNumber": 30,
     "endNumber": 99,
-    "productPrice": 0.4533
+    "productPrice": 0.4553
    },
    {
     "startNumber": 100,
     "endNumber": 499,
-    "productPrice": 0.3979
+    "productPrice": 0.3996
    },
    {
     "startNumber": 500,
     "endNumber": 999,
-    "productPrice": 0.3522
+    "productPrice": 0.3538
    },
    {
     "startNumber": 1000,
     "endNumber": -1,
-    "productPrice": 0.3343
+    "productPrice": 0.3358
    }
   ],
   "buyComponentPrices": [
    {
     "startNumber": 1,
     "endNumber": 9,
-    "productPrice": 0.6
+    "productPrice": 0.6027
    },
    {
     "startNumber": 10,
     "endNumber": 29,
-    "productPrice": 0.4917
+    "productPrice": 0.4938
    },
    {
     "startNumber": 30,
     "endNumber": 99,
-    "productPrice": 0.4367
+    "productPrice": 0.4386
    },
    {
     "startNumber": 100,
     "endNumber": 499,
-    "productPrice": 0.3833
+    "productPrice": 0.385
    },
    {
     "startNumber": 500,
     "endNumber": 999,
-    "productPrice": 0.3393
+    "productPrice": 0.3408
    },
    {
     "startNumber": 1000,
     "endNumber": -1,
-    "productPrice": 0.322
+    "productPrice": 0.3235
    }
   ],
   "firstSortAccessId": "248c42d1f2d246498d91d5c9cad9dd16",
   "secondSortAccessId": "e955493f42604e9f87b66e88320df6f6",
-  "canPresaleNumber": 6216,
+  "canPresaleNumber": 6120,
   "componentProductType": 0,
   "mergedComponentCode": null,
   "urlSuffix": "Ningbo_Xinlaiya_Elec-XY308_2_545P/C915914",
@@ -5288,7 +5296,7 @@
   "shopCostPrice": 1.6,
   "preMinPurchaseNum": 18,
   "minPurchaseNum": 1,
-  "initialPrice": 0.6229,
+  "initialPrice": 0.6256,
   "componentCode": "C915914",
   "componentBrandEn": "Ningbo Xinlaiya Elec.",
   "componentModelEn": "XY308-2.54-5P",

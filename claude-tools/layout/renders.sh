@@ -1,6 +1,6 @@
 #!/bin/bash
 CLI=/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli
-D=/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02
+D=$(cd "$(dirname "$0")/../.." && pwd)/frugal_iot_v02
 O=$D/../claude-tools/layout/out; mkdir -p $O; rm -f $O/renders.done
 cd $D
 $CLI pcb render --side top --width 2400 --height 2000 --quality high --floor -o $O/render_top.png frugal_iot_v02.kicad_pcb > $O/renders.log 2>&1

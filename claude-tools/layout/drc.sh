@@ -1,7 +1,7 @@
 #!/bin/bash
 # Run on the Mac: DRC with schematic parity + renders of the board.
 CLI=/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli
-D=/Users/mitra/Claude/frugal-layout/frugal-iot-v0.2/frugal_iot_v02
+D=$(cd "$(dirname "$0")/../.." && pwd)/frugal_iot_v02
 O=$D/../claude-tools/layout/out; mkdir -p $O
 cd $D
 $CLI pcb drc --format json --schematic-parity --severity-all -o $O/drc.json frugal_iot_v02.kicad_pcb > $O/drc.log 2>&1

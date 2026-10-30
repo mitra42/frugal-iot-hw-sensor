@@ -19,8 +19,8 @@
   netlist matches the specification exactly
   ERC: 0 error(s), 0 warning(s)
   text check: 0 collision(s), 3 pair(s) closer than 1.27 mm
-    frugal_iot_v02.kicad_sch: 'PROG: I = 1200 / R. 4.7k = 255 mA (default); bridge JP1 (2.35k) = 510 mA (D8).' is 0.41 mm from 'TEMP grounded: no cell thermistor. J4 (not fitted, JST-PH footprint): pin 1 = cell -,' at (162.56, 70.89) (stack, want 0.85)
-    frugal_iot_v02.kicad_sch: 'GPIO map (D3): USB 18/19, UART0 20/21 -> J3, I2C 6/7, sensors 0/1 (ADC), VBAT_SENSE 3,' is 0.41 mm from 'nRAIL_EN 5, LED 8, BOOT 9, spares 2/4 -> J3, 10 -> J5 (RS485 DE when fitted).' at (39.37, 293.14) (stack, want 0.85)
+    frugal_iot_v02.kicad_sch: 'PROG: I = 1200 / R. 4.7k = 255 mA (default); bridge JP1 (2.35k) = 510 mA (D8).' is 0.41 mm from 'TEMP grounded: no cell thermistor. J4 (JST-PH, fitted from D34): pin 1 = cell -,' at (162.56, 70.89) (stack, want 0.85)
     frugal_iot_v02.kicad_sch: 'J2 (main) and J3 share one layout, pins 1-10 (D4, D5); J2, J12, J3 and J13 all fitted:' is 0.41 mm from '1 GND  2 SDA/A  3 SCL/B  4 3V3_SW  5 GND  6 S1/GPIO2  7 3V3_SW  8 GND  9 S2/GPIO4  10 3V3_SW' at (229.87, 310.12) (stack, want 0.85)
+    frugal_iot_v02.kicad_sch: 'GPIO map (D3): USB 18/19, UART0 20/21 -> J3, I2C 6/7, sensors 0/1 (ADC), VBAT_SENSE 3,' is 0.41 mm from 'nRAIL_EN 5, LED 8, BOOT 9, spares 2/4 -> J3, 10 -> J5 (RS485 DE when fitted).' at (39.37, 293.14) (stack, want 0.85)
 VERIFY OK
 exit 0

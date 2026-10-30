@@ -4,7 +4,7 @@ e.g. a solar panel) and J4 (cell), one sign above each pad (D32). Run silk.py af
 import pcbnew
 PCB = '../../frugal_iot_v02/frugal_iot_v02.kicad_pcb'
 b = pcbnew.LoadBoard(PCB); mm = pcbnew.FromMM; V = pcbnew.VECTOR2I
-FIT = {'J13', 'R18', 'C12'}
+FIT = {'J13', 'R18', 'C12', 'J4', 'J6'}   # J4, J6 fitted from D34
 NOTE = {'R18': 'pull-up (e.g. DS18B20)', 'C12': 'filter (analog)'}   # as circuit.py
 fp = {f.GetReference(): f for f in b.GetFootprints()}
 # read everything first (pcbnew SWIG: no reads after mutating the board)
